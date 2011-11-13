@@ -12,7 +12,7 @@ To use this application, you will need:
 
 h2. Credits
 
-Template from https://github.com/RailsApps/rails3-devise-rspec-cucumber
+Template from "rails3-devise-rspec-cucumber":https://github.com/RailsApps/rails3-devise-rspec-cucumber
 
 h2. License
 
