@@ -1,0 +1,19 @@
+= form_for [@quote, @value] do |f|
+  -if @value.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@value.errors.count, "error")} prohibited this value from being saved:"
+      %ul
+        - @value.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :value
+    = f.text_field :value
+  .field
+    = f.label :volume
+    = f.text_field :volume
+  .field
+    = f.label :timestamp
+    = f.datetime_select :timestamp
+  .actions
+    = f.submit 'Save'

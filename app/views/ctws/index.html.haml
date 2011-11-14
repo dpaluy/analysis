@@ -1,0 +1,21 @@
+%h1 Listing CTWs
+
+%table
+  %tr
+    %th Name
+    %th Description
+    %th
+    %th
+    %th
+
+  - @ctws.each do |ctw|
+    %tr
+      %td= ctw.name
+      %td= ctw.description
+      %td= link_to 'Show', ctw
+      %td= link_to 'Edit', edit_ctw_path(ctw)
+      %td= link_to 'Destroy', ctw, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New CTW', new_ctw_path

@@ -1,0 +1,28 @@
+%h1 
+  =@quote.name
+  Values
+
+%table
+  %tr
+    %th Value
+    %th Volume
+    %th Timestamp
+    %th
+    %th
+    %th
+
+  - @values.each do |value|
+    %tr
+      %td= value.value
+      %td= value.volume
+      %td= value.timestamp
+      %td= link_to 'Show', value
+      %td= link_to 'Edit', edit_value_path(value)
+      %td= link_to 'Destroy', value, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+%p
+  = link_to 'New Value', new_quote_value_path(@quote)
+  |
+  \#{link_to "View Quotes", quotes_path}

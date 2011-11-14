@@ -1,0 +1,24 @@
+%p#notice= notice
+
+%p
+  %b Ctw:
+  = @ctw_collector.ctw_id
+%p
+  %b Timestamp:
+  = @ctw_collector.timestamp
+%p
+  %b Pr0:
+  = @ctw_collector.pr0
+%p
+  %b Pr1:
+  = @ctw_collector.pr1
+%p
+  %b Pr2:
+  = @ctw_collector.pr2
+%p
+  %b Depth:
+  = @ctw_collector.depth
+
+= link_to 'Edit', edit_ctw_collector_path(@ctw_collector)
+\|
+= link_to 'Back', ctw_collectors_path

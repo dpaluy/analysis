@@ -1,0 +1,28 @@
+= form_for @ctw_collector do |f|
+  -if @ctw_collector.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@ctw_collector.errors.count, "error")} prohibited this ctw_collector from being saved:"
+      %ul
+        - @ctw_collector.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :ctw_id
+    = f.number_field :ctw_id
+  .field
+    = f.label :timestamp
+    = f.datetime_select :timestamp
+  .field
+    = f.label :pr0
+    = f.text_field :pr0
+  .field
+    = f.label :pr1
+    = f.text_field :pr1
+  .field
+    = f.label :pr2
+    = f.text_field :pr2
+  .field
+    = f.label :depth
+    = f.number_field :depth
+  .actions
+    = f.submit 'Save'

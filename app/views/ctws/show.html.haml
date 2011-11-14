@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @ctw.name
+%p
+  %b Description:
+  = @ctw.description
+
+= link_to 'Edit', edit_ctw_path(@ctw)
+\|
+= link_to 'Back', ctws_path
