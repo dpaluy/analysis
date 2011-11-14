@@ -11,6 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20111114075909) do
+
+  create_table "quotes", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "values", :force => true do |t|
+    t.integer  "quote_id",                                                :null => false
+    t.decimal  "value",     :precision => 12, :scale => 5,                :null => false
+    t.integer  "volume",                                   :default => 0
+    t.datetime "timestamp"
+  end
 
 end
