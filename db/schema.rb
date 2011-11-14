@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111114104748) do
+ActiveRecord::Schema.define(:version => 20111114172013) do
+
+  create_table "actions", :force => true do |t|
+    t.integer  "ctw_id",                                                  :null => false
+    t.decimal  "cost",      :precision => 12, :scale => 5,                :null => false
+    t.integer  "amount",                                   :default => 0
+    t.datetime "timestamp"
+  end
 
   create_table "ctw_collectors", :force => true do |t|
     t.integer  "ctw_id",                                    :null => false

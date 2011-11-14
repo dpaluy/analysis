@@ -1,0 +1,25 @@
+%h1 Listing Actions
+
+%p
+  %h3 
+    Total: 
+    = Action.total_cost
+
+%br
+
+%table
+  %tr
+    %th CTW
+    %th Cost
+    %th Amount
+    %th Timestamp
+
+  - @actions.each do |action|
+    %tr
+      %td= action.ctw_id
+      %td= action.cost
+      %td= action.amount
+      %td= action.timestamp
+
+%br
+%p= paginate @actions

@@ -1,4 +1,6 @@
 Analysis::Application.routes.draw do
+  resources :actions
+
   resources :ctw_collectors
 
   resources :ctws
