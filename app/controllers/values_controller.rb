@@ -3,7 +3,7 @@ class ValuesController < ApplicationController
   # GET /values.json
   def index
     @quote = Quote.find(params[:quote_id]) 
-    @values = @quote.values.all
+    @values = @quote.values.order(:timestamp).page params[:page]
 
     respond_to do |format|
       format.html # index.html.erb

@@ -2,6 +2,11 @@
   =@quote.name
   Values
 
+%p
+  = link_to 'New Value', new_quote_value_path(@quote)
+  |
+  \#{link_to "View Quotes", quotes_path}
+  
 %table
   %tr
     %th Value
@@ -21,8 +26,5 @@
       %td= link_to 'Destroy', value, :confirm => 'Are you sure?', :method => :delete
 
 %br
+%p= paginate @values
 
-%p
-  = link_to 'New Value', new_quote_value_path(@quote)
-  |
-  \#{link_to "View Quotes", quotes_path}
