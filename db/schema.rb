@@ -11,7 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111114075909) do
+ActiveRecord::Schema.define(:version => 20111114091135) do
+
+  create_table "ctw_collector", :force => true do |t|
+    t.integer   "ctw_id",    :null => false
+    t.timestamp "timestamp", :null => false
+    t.float     "pr0",       :null => false
+    t.float     "pr1",       :null => false
+    t.float     "pr2",       :null => false
+    t.integer   "depth",     :null => false
+  end
+
+  create_table "ctws", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "quotes", :force => true do |t|
     t.string   "name"
