@@ -11,15 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111114091135) do
+ActiveRecord::Schema.define(:version => 20111114104748) do
 
-  create_table "ctw_collector", :force => true do |t|
-    t.integer   "ctw_id",    :null => false
-    t.timestamp "timestamp", :null => false
-    t.float     "pr0",       :null => false
-    t.float     "pr1",       :null => false
-    t.float     "pr2",       :null => false
-    t.integer   "depth",     :null => false
+  create_table "ctw_collectors", :force => true do |t|
+    t.integer  "ctw_id",                                    :null => false
+    t.datetime "timestamp"
+    t.decimal  "pr0",       :precision => 15, :scale => 10, :null => false
+    t.decimal  "pr1",       :precision => 15, :scale => 10, :null => false
+    t.decimal  "pr2",       :precision => 15, :scale => 10, :null => false
+    t.integer  "depth"
   end
 
   create_table "ctws", :force => true do |t|

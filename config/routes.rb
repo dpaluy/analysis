@@ -1,5 +1,6 @@
 Analysis::Application.routes.draw do
- 
+  resources :ctw_collectors
+
   resources :ctws
 
   resources :quotes, :shallow => true do
