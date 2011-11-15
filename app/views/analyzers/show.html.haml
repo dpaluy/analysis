@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @analyzer.name
+%p
+  %b Start date:
+  = @analyzer.start_date
+%p
+  %b End date:
+  = @analyzer.end_date
+%p
+  %b Quote:
+  = @analyzer.quote_id
+%p
+  %b CTW:
+  = @analyzer.ctw_id
+  
+= link_to 'Edit', edit_analyzer_path(@analyzer)
+\|
+= link_to 'Back', analyzers_path

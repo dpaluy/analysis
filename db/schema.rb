@@ -11,13 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111114172013) do
+ActiveRecord::Schema.define(:version => 20111115112247) do
 
   create_table "actions", :force => true do |t|
-    t.integer  "ctw_id",                                                  :null => false
-    t.decimal  "cost",      :precision => 12, :scale => 5,                :null => false
-    t.integer  "amount",                                   :default => 0
+    t.integer  "analyzer_id",                                               :null => false
+    t.decimal  "cost",        :precision => 12, :scale => 5,                :null => false
+    t.integer  "amount",                                     :default => 0
     t.datetime "timestamp"
+  end
+
+  create_table "analyzers", :force => true do |t|
+    t.string   "name",       :null => false
+    t.date     "start_date", :null => false
+    t.date     "end_date",   :null => false
+    t.integer  "quote_id",   :null => false
+    t.integer  "ctw_id",     :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "ctw_collectors", :force => true do |t|

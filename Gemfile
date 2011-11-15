@@ -4,6 +4,8 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.1'
 gem 'sqlite3'
 gem 'mysql2'
+gem 'date_validator'
+gem 'lazy_high_charts'
 
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'

@@ -23,8 +23,8 @@
       %td= value.timestamp
       %td= link_to 'Show', value
       %td= link_to 'Edit', edit_value_path(value)
-      %td= link_to 'Destroy', value, :confirm => 'Are you sure?', :method => :delete
-
+      /%td= link_to 'Destroy', value, :confirm => 'Are you sure?', :method => :delete
+      %td= button_to "Delete", value, :method=>:delete, :class=>:destroy
 %br
 %p= paginate @values
 

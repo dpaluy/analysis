@@ -1,0 +1,31 @@
+%h1 Listing Analyzers
+
+%p
+  = link_to 'New Analyzer', new_analyzer_path
+
+%table
+  %tr
+    %th Name
+    %th Start date
+    %th End date
+    %th Quote
+    %th CTW
+    %th
+    %th
+
+  - @analyzers.each do |analyzer|
+    %tr
+      %td= analyzer.name
+      %td= analyzer.start_date
+      %td= analyzer.end_date
+      %td= analyzer.quote_id
+      %td= analyzer.ctw_id
+      %td= link_to 'Show', analyzer_actions_path(analyzer)
+      %td
+        = link_to 'Edit', edit_analyzer_path(analyzer)
+        |
+        /= link_to 'Destroy', analyzer, :confirm => 'Are you sure?', :method => :delete
+        = button_to "Delete", analyzer, :method=>:delete, :class=>:destroy
+%br
+%p= paginate @analyzers
+

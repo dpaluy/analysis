@@ -1,22 +1,24 @@
-%h1 Listing Actions
+%h1
+  = @analyzer.name
+  Actions
 
 %p
   %h3 
     Total: 
-    = Action.total_cost
+    = Action.total_cost(@analyzer.id)
 
 %br
 
 %table
   %tr
-    %th CTW
+    %th Analyzer ID
     %th Cost
     %th Amount
     %th Timestamp
 
   - @actions.each do |action|
     %tr
-      %td= action.ctw_id
+      %td= action.analyzer_id
       %td= action.cost
       %td= action.amount
       %td= action.timestamp
