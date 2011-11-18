@@ -15,8 +15,11 @@ private
   end
 
   def fill_actions
+    analyzer_id = self.id
+    Action.delete_all(['analyzer_id = ?', analyzer_id])
     collection = CtwCollector.where("ctw_id = ? and timestamp >= ? and timestamp <= ?", self.ctw_id, self.start_date, self.end_date)
     asset = 0
+
     collection.each do |col|
       cost = 0
       action_index = col.get_index_of_max
@@ -24,13 +27,14 @@ private
         if asset == 0
           cost = -get_price(quote_id, col.timestamp)
           asset += 1
-          Action.new(:analyzer_id => self, :cost => cost, :amount => asset, :timestamp => col.timestamp ).save!
+          ac = Action.new(:analyzer_id => analyzer_id, :cost => cost, :amount => asset, :timestamp => col.timestamp )
+          ac.save!
         end
       elsif action_index == 2 # SELL
         if asset > 0
           cost = get_price(quote_id, col.timestamp)
           asset -= 1
-          Action.new(:analyzer_id => self, :cost => cost, :amount => asset, :timestamp => col.timestamp ).save!
+          Action.new(:analyzer_id => analyzer_id, :cost => cost, :amount => asset, :timestamp => col.timestamp ).save!
         end
       end
     end

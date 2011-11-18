@@ -6,6 +6,9 @@ gem 'sqlite3'
 gem 'mysql2'
 gem 'date_validator'
 gem 'lazy_high_charts'
+gem 'capistrano'
+gem 'capistrano_colors'
+gem 'unicorn', :group => :production
 
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'
@@ -14,7 +17,7 @@ group :assets do
 end
 gem 'jquery-rails'
 if HOST_OS =~ /linux/i
-  gem 'therubyracer', '>= 0.9.8'
+  gem 'therubyracer'
 end
 gem 'kaminari'
 gem "haml", ">= 3.1.2"
