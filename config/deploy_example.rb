@@ -13,10 +13,10 @@ set :deploy_via, :remote_cache
 set :deploy_to, "/home/#{user}/www/#{application}"
 set :use_sudo, false
 
-role :web, "107.22.186.230"
-role :app, "107.22.186.230"
-role :db,  "107.22.186.230", :primary => true 
-set :user, "ubuntu"
+role :web, "web server"
+role :app, "web server"
+role :db,  "mysql db server", :primary => true 
+set :user, "username"
 
 set :rails_env, "production"
 
