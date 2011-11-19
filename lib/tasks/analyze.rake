@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/.."
+require 'config/environment'
 require 'lib/progressbar'
 
 def get_price(quote_id, timestamp)
