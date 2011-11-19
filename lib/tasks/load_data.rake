@@ -1,5 +1,3 @@
-$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/.."
-
 require 'config/environment'
 require 'lib/progressbar'
 #require 'time'
