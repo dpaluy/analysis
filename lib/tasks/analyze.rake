@@ -1,5 +1,5 @@
-require 'config/environment'
-require 'lib/progressbar'
+require "#{Rails.root}/config/environment"
+require "#{Rails.root}/lib/progressbar"
 
 def get_price(quote_id, timestamp)
   price = Value.find(:first, :conditions => ['quote_id = ? and timestamp >= ?', quote_id, timestamp]).value

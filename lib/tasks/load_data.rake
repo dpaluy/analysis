@@ -1,8 +1,6 @@
-require 'config/environment'
-require 'lib/progressbar'
-#require 'time'
-#require 'date'
-require 'lib/array'
+require "#{Rails.root}/config/environment"
+require "#{Rails.root}/lib/progressbar"
+require "#{Rails.root}/lib/array"
 
 def merge_time(data)
   result = []
