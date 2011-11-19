@@ -4,6 +4,11 @@ require "rvm/capistrano"
 require "bundler/capistrano"
 require "capistrano_colors"
 
+# For Debug
+#set :rake, "#{rake} --trace"
+
+set :domain, "WEB SERVER"
+set :user, "USERNAME" 
 set :application, "analysis"
 set :repository,  "git@github.com:dpaluy/analysis.git"
 
@@ -13,15 +18,19 @@ set :deploy_via, :remote_cache
 set :deploy_to, "/home/#{user}/www/#{application}"
 set :use_sudo, false
 
-role :web, "web server"
-role :app, "web server"
-role :db,  "mysql db server", :primary => true 
-set :user, "username"
+role :web, domain
+role :app, domain
+role :db,  "DB SERVER", :primary => true 
+
 
 set :rails_env, "production"
 
 set :rvm_ruby_string, "ruby-1.9.2-p290"
 set :rvm_type, :user
+set :normalize_asset_timestamps, false # disable Capistrano warning - Rails 3.1
+
+# Set up SSH so it can connect to the EC2 node - assumes your SSH key is in ~/.ssh/id_rsa
+ssh_options[:keys] = [File.join(ENV["HOME"], ".ssh", "id_rsa")] 
 
 set :unicorn_pid do
   "#{shared_path}/pids/unicorn.pid"
@@ -50,18 +59,18 @@ namespace :unicorn do
   end
 
   desc "stop unicorn server"
-  task :stop
+  task :stop do
     run "kill -s QUIT `cat #{unicorn_pid}`"
   end
 
   desc "restart unicorn"
-  task :restart
+  task :restart do
     top.unicorn.stop
     top.unicorn.start
   end
 
   desc "reload unicorn (gracefully restart workers)"
-  task :reload
+  task :reload do
     run "kill -s USR2 `cat #{unicorn_pid}`"
   end
 
