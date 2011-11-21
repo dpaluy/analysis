@@ -52,9 +52,8 @@ set :deploy_via, :remote_cache
 set :deploy_to, "/home/#{user}/rails/#{application}"
 set :git_shallow_clone, 1
 set :git_enable_submodules, 1
-set :unicorn_pid do
-  "#{shared_path}/pids/unicorn.pid"
-end
+
+set :unicorn_pid, "#{shared_path}/pids/unicorn.pid"
 set :server, :unicorn
 
 # =====================================================================
@@ -62,46 +61,44 @@ set :server, :unicorn
 # =====================================================================
 before "deploy:assets:precompile", "bundle:install"
 
-require 'ricodigo_capistrano_recipes'
+namespace :deploy do
+  task :start do
+    top.unicorn.start
+  end
 
-#namespace :deploy do
-#  task :start do
-#    top.unicorn.start
-#  end
+  task :stop do
+    top.unicorn.stop
+  end
 
-#  task :stop do
-#    top.unicorn.stop
-#  end
+  task :restart do
+    top.unicorn.reload
+  end
+end
 
-#  task :restart do
-#    top.unicorn.reload
-#  end
-#end
+namespace :unicorn do
+  desc "start unicorn server"
+  task :start, :roles => :app do
+    run "cd #{current_path} && bundle exec unicorn -c #{current_path}/config/unicorn.rb -E #{rails_env} -D"
+  end
 
-#namespace :unicorn do
-#  desc "start unicorn server"
-#  task :start, :roles => :app do
-#    run "cd #{current_path} && bundle exec unicorn -D"
-#  end
+  desc "stop unicorn server"
+  task :stop do
+    run "kill -s QUIT `cat #{unicorn_pid}`"
+  end
 
-#  desc "stop unicorn server"
-#  task :stop do
-#    run "kill -s QUIT `cat #{unicorn_pid}`"
-#  end
+  desc "restart unicorn"
+  task :restart do
+    top.unicorn.stop
+    top.unicorn.start
+  end
 
-#  desc "restart unicorn"
-#  task :restart do
-#    top.unicorn.stop
-#    top.unicorn.start
-#  end
+  desc "reload unicorn (gracefully restart workers)"
+  task :reload do
+    run "kill -s USR2 `cat #{unicorn_pid}`"
+  end
 
-#  desc "reload unicorn (gracefully restart workers)"
-#  task :reload do
-#    run "kill -s USR2 `cat #{unicorn_pid}`"
-#  end
-
-#  desc "reconfigure unicorn (reload config and gracefully restart workers)"
-#  task :reconfigure, :roles => :app do
-#    run "kill -s HUP `cat #{unicorn_pid}`"
-#  end
-#end
+  desc "reconfigure unicorn (reload config and gracefully restart workers)"
+  task :reconfigure, :roles => :app do
+    run "kill -s HUP `cat #{unicorn_pid}`"
+  end
+end
