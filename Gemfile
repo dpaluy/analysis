@@ -8,7 +8,6 @@ gem 'date_validator'
 gem 'lazy_high_charts'
 gem 'capistrano'
 gem 'capistrano_colors'
-gem 'ricodigo-capistrano-recipes'
 
 gem 'unicorn', :group => :production
 
