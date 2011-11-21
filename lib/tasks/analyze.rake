@@ -9,7 +9,7 @@ desc "Analyzer"
 task :analyze do
   Action.delete_all
   start_date = Date.parse('2008-01-01')
-  end_date = Date.parse('2010-12-31')
+  end_date = Date.parse('2008-12-31')
   collection = CtwCollector.find(:all, :conditions => ['timestamp >= ? and timestamp <= ?',
     start_date, end_date])
 
@@ -21,17 +21,13 @@ task :analyze do
   collection.each do |col|
     action_index = col.get_index_of_max
     if action_index == 1 # BUY
-      if asset == 0
         cost = -get_price(quote_id, col.timestamp)
         asset += 1
         Action.new(:analyzer_id => analyzer_id, :cost => cost, :amount => asset, :timestamp => col.timestamp ).save!
-      end
     elsif action_index == 2 # SELL
-      if asset > 0
         cost = get_price(quote_id, col.timestamp)
         asset -= 1
         Action.new(:analyzer_id => analyzer_id, :cost => cost, :amount => asset, :timestamp => col.timestamp ).save!
-      end
     end
     pbar.inc
   end

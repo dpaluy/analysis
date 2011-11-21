@@ -24,18 +24,18 @@ private
       cost = 0
       action_index = col.get_index_of_max
       if action_index == 1 # BUY
-        if asset == 0
+#        if asset == 0
           cost = -get_price(quote_id, col.timestamp)
           asset += 1
           ac = Action.new(:analyzer_id => analyzer_id, :cost => cost, :amount => asset, :timestamp => col.timestamp )
           ac.save!
-        end
+#       end
       elsif action_index == 2 # SELL
-        if asset > 0
+#        if asset > 0
           cost = get_price(quote_id, col.timestamp)
           asset -= 1
           Action.new(:analyzer_id => analyzer_id, :cost => cost, :amount => asset, :timestamp => col.timestamp ).save!
-        end
+#        end
       end
     end
   end
