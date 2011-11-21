@@ -49,7 +49,7 @@ role :db, domain, :primary => true
 # =====================================================================
 set :rails_env, "production"
 set :deploy_via, :remote_cache
-set :deploy_to, "/home/#{user}/www/#{application}"
+set :deploy_to, "/home/#{user}/rails/#{application}"
 set :git_shallow_clone, 1
 set :git_enable_submodules, 1
 set :unicorn_pid do
