@@ -1,7 +1,7 @@
 require 'rbconfig'
 HOST_OS = RbConfig::CONFIG['host_os']
 source 'http://rubygems.org'
-gem 'rails', '3.1.1'
+gem 'rails', '3.1.2'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'date_validator'
@@ -12,9 +12,9 @@ gem 'capistrano_colors'
 gem 'unicorn', :group => :production
 
 group :assets do
-  gem 'sass-rails',   '~> 3.1.4'
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
 end
 
 gem 'jquery-rails'

@@ -11,14 +11,12 @@
 
 %table
   %tr
-    %th Analyzer ID
     %th Cost
     %th Amount
     %th Timestamp
 
   - @actions.each do |action|
     %tr
-      %td= action.analyzer_id
       %td= action.cost
       %td= action.amount
       %td= action.timestamp
