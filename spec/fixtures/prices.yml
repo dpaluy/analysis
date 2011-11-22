@@ -1,0 +1,3137 @@
+---
+- !ruby/object:Value
+  attributes:
+    id: 348981
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 10:00:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 348985
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 10:01:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 348989
+    quote_id: 1
+    value: 52.45
+    volume: 0
+    timestamp: 2008-12-29 10:02:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 348993
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 10:03:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 348998
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 10:04:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349002
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 10:05:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349005
+    quote_id: 1
+    value: 52.34
+    volume: 0
+    timestamp: 2008-12-29 10:06:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349009
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 10:07:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349013
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 10:08:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349017
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 10:09:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349022
+    quote_id: 1
+    value: 52.32
+    volume: 0
+    timestamp: 2008-12-29 10:10:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349025
+    quote_id: 1
+    value: 52.27
+    volume: 0
+    timestamp: 2008-12-29 10:11:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349029
+    quote_id: 1
+    value: 52.28
+    volume: 0
+    timestamp: 2008-12-29 10:12:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349033
+    quote_id: 1
+    value: 52.34
+    volume: 0
+    timestamp: 2008-12-29 10:13:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349037
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 10:14:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349039
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 10:15:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349044
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 10:16:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349049
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 10:17:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349052
+    quote_id: 1
+    value: 52.43
+    volume: 0
+    timestamp: 2008-12-29 10:18:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349055
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 10:19:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349058
+    quote_id: 1
+    value: 52.41
+    volume: 0
+    timestamp: 2008-12-29 10:20:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349062
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 10:21:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349065
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 10:22:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349069
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 10:23:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349074
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 10:24:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349077
+    quote_id: 1
+    value: 52.39
+    volume: 0
+    timestamp: 2008-12-29 10:25:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349081
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 10:26:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349086
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 10:27:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349089
+    quote_id: 1
+    value: 52.41
+    volume: 0
+    timestamp: 2008-12-29 10:28:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349093
+    quote_id: 1
+    value: 52.41
+    volume: 0
+    timestamp: 2008-12-29 10:29:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349098
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 10:30:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349100
+    quote_id: 1
+    value: 52.32
+    volume: 0
+    timestamp: 2008-12-29 10:31:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349104
+    quote_id: 1
+    value: 52.28
+    volume: 0
+    timestamp: 2008-12-29 10:32:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349109
+    quote_id: 1
+    value: 52.29
+    volume: 0
+    timestamp: 2008-12-29 10:33:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349113
+    quote_id: 1
+    value: 52.35
+    volume: 0
+    timestamp: 2008-12-29 10:34:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349118
+    quote_id: 1
+    value: 52.43
+    volume: 0
+    timestamp: 2008-12-29 10:35:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349121
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 10:36:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349126
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 10:37:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349128
+    quote_id: 1
+    value: 52.39
+    volume: 0
+    timestamp: 2008-12-29 10:38:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349133
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 10:39:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349138
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 10:40:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349141
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 10:41:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349145
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 10:42:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349149
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 10:43:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349153
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 10:44:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349156
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 10:45:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349160
+    quote_id: 1
+    value: 52.34
+    volume: 0
+    timestamp: 2008-12-29 10:46:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349164
+    quote_id: 1
+    value: 52.41
+    volume: 0
+    timestamp: 2008-12-29 10:47:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349168
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 10:48:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349172
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 10:49:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349176
+    quote_id: 1
+    value: 52.45
+    volume: 0
+    timestamp: 2008-12-29 10:50:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349180
+    quote_id: 1
+    value: 52.49
+    volume: 0
+    timestamp: 2008-12-29 10:51:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349184
+    quote_id: 1
+    value: 52.51
+    volume: 0
+    timestamp: 2008-12-29 10:52:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349188
+    quote_id: 1
+    value: 52.49
+    volume: 0
+    timestamp: 2008-12-29 10:53:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349191
+    quote_id: 1
+    value: 52.49
+    volume: 0
+    timestamp: 2008-12-29 10:54:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349195
+    quote_id: 1
+    value: 52.51
+    volume: 0
+    timestamp: 2008-12-29 10:55:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349199
+    quote_id: 1
+    value: 52.51
+    volume: 0
+    timestamp: 2008-12-29 10:56:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349203
+    quote_id: 1
+    value: 52.51
+    volume: 0
+    timestamp: 2008-12-29 10:57:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349205
+    quote_id: 1
+    value: 52.5
+    volume: 0
+    timestamp: 2008-12-29 10:58:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349209
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 10:59:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349214
+    quote_id: 1
+    value: 52.47
+    volume: 0
+    timestamp: 2008-12-29 11:00:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349217
+    quote_id: 1
+    value: 52.48
+    volume: 0
+    timestamp: 2008-12-29 11:01:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349222
+    quote_id: 1
+    value: 52.5
+    volume: 0
+    timestamp: 2008-12-29 11:02:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349226
+    quote_id: 1
+    value: 52.51
+    volume: 0
+    timestamp: 2008-12-29 11:03:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349231
+    quote_id: 1
+    value: 52.53
+    volume: 0
+    timestamp: 2008-12-29 11:04:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349233
+    quote_id: 1
+    value: 52.54
+    volume: 0
+    timestamp: 2008-12-29 11:05:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349237
+    quote_id: 1
+    value: 52.52
+    volume: 0
+    timestamp: 2008-12-29 11:06:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349241
+    quote_id: 1
+    value: 52.53
+    volume: 0
+    timestamp: 2008-12-29 11:07:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349245
+    quote_id: 1
+    value: 52.55
+    volume: 0
+    timestamp: 2008-12-29 11:08:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349249
+    quote_id: 1
+    value: 52.53
+    volume: 0
+    timestamp: 2008-12-29 11:09:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349253
+    quote_id: 1
+    value: 52.52
+    volume: 0
+    timestamp: 2008-12-29 11:10:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349257
+    quote_id: 1
+    value: 52.47
+    volume: 0
+    timestamp: 2008-12-29 11:11:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349262
+    quote_id: 1
+    value: 52.47
+    volume: 0
+    timestamp: 2008-12-29 11:12:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349266
+    quote_id: 1
+    value: 52.51
+    volume: 0
+    timestamp: 2008-12-29 11:13:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349269
+    quote_id: 1
+    value: 52.47
+    volume: 0
+    timestamp: 2008-12-29 11:14:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349275
+    quote_id: 1
+    value: 52.48
+    volume: 0
+    timestamp: 2008-12-29 11:15:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349278
+    quote_id: 1
+    value: 52.52
+    volume: 0
+    timestamp: 2008-12-29 11:16:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349283
+    quote_id: 1
+    value: 52.57
+    volume: 0
+    timestamp: 2008-12-29 11:17:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349287
+    quote_id: 1
+    value: 52.57
+    volume: 0
+    timestamp: 2008-12-29 11:18:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349292
+    quote_id: 1
+    value: 52.61
+    volume: 0
+    timestamp: 2008-12-29 11:19:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349295
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 11:20:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349299
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 11:21:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349304
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 11:22:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349308
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 11:23:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349312
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 11:24:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349316
+    quote_id: 1
+    value: 52.73
+    volume: 0
+    timestamp: 2008-12-29 11:25:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349321
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 11:26:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349324
+    quote_id: 1
+    value: 52.66
+    volume: 0
+    timestamp: 2008-12-29 11:27:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349329
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 11:28:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349333
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 11:29:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349337
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 11:30:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349341
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 11:31:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349345
+    quote_id: 1
+    value: 52.73
+    volume: 0
+    timestamp: 2008-12-29 11:32:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349349
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 11:33:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349353
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 11:34:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349358
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 11:35:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349361
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 11:36:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349365
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 11:37:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349371
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 11:38:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349374
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 11:39:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349378
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 11:40:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349383
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 11:41:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349387
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 11:42:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349391
+    quote_id: 1
+    value: 52.74
+    volume: 0
+    timestamp: 2008-12-29 11:43:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349395
+    quote_id: 1
+    value: 52.74
+    volume: 0
+    timestamp: 2008-12-29 11:44:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349399
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 11:45:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349402
+    quote_id: 1
+    value: 52.74
+    volume: 0
+    timestamp: 2008-12-29 11:46:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349407
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 11:47:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349411
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 11:48:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349414
+    quote_id: 1
+    value: 52.73
+    volume: 0
+    timestamp: 2008-12-29 11:49:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349420
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 11:50:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349423
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 11:51:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349426
+    quote_id: 1
+    value: 52.73
+    volume: 0
+    timestamp: 2008-12-29 11:52:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349430
+    quote_id: 1
+    value: 52.76
+    volume: 0
+    timestamp: 2008-12-29 11:53:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349434
+    quote_id: 1
+    value: 52.73
+    volume: 0
+    timestamp: 2008-12-29 11:54:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349438
+    quote_id: 1
+    value: 52.74
+    volume: 0
+    timestamp: 2008-12-29 11:55:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349442
+    quote_id: 1
+    value: 52.76
+    volume: 0
+    timestamp: 2008-12-29 11:56:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349445
+    quote_id: 1
+    value: 52.74
+    volume: 0
+    timestamp: 2008-12-29 11:57:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349449
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 11:58:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349453
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 11:59:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349458
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 12:00:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349463
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 12:01:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349466
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 12:02:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349470
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 12:03:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349474
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 12:04:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349478
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 12:05:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349483
+    quote_id: 1
+    value: 52.75
+    volume: 0
+    timestamp: 2008-12-29 12:06:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349487
+    quote_id: 1
+    value: 52.74
+    volume: 0
+    timestamp: 2008-12-29 12:07:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349490
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 12:08:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349494
+    quote_id: 1
+    value: 52.73
+    volume: 0
+    timestamp: 2008-12-29 12:09:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349499
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 12:10:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349503
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 12:11:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349507
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 12:12:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349511
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 12:13:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349515
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 12:14:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349519
+    quote_id: 1
+    value: 52.74
+    volume: 0
+    timestamp: 2008-12-29 12:15:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349523
+    quote_id: 1
+    value: 52.71
+    volume: 0
+    timestamp: 2008-12-29 12:16:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349527
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 12:17:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349531
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 12:18:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349534
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 12:19:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349539
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 12:20:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349544
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 12:21:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349548
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 12:22:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349550
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 12:23:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349555
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 12:24:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349561
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 12:25:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349565
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 12:26:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349569
+    quote_id: 1
+    value: 52.66
+    volume: 0
+    timestamp: 2008-12-29 12:27:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349573
+    quote_id: 1
+    value: 52.59
+    volume: 0
+    timestamp: 2008-12-29 12:28:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349576
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 12:29:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349580
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 12:30:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349584
+    quote_id: 1
+    value: 52.58
+    volume: 0
+    timestamp: 2008-12-29 12:31:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349588
+    quote_id: 1
+    value: 52.6
+    volume: 0
+    timestamp: 2008-12-29 12:32:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349590
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 12:33:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349595
+    quote_id: 1
+    value: 52.61
+    volume: 0
+    timestamp: 2008-12-29 12:34:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349600
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 12:35:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349603
+    quote_id: 1
+    value: 52.6
+    volume: 0
+    timestamp: 2008-12-29 12:36:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349608
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 12:37:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349611
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 12:38:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349615
+    quote_id: 1
+    value: 52.73
+    volume: 0
+    timestamp: 2008-12-29 12:39:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349619
+    quote_id: 1
+    value: 52.72
+    volume: 0
+    timestamp: 2008-12-29 12:40:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349622
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 12:41:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349628
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 12:42:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349631
+    quote_id: 1
+    value: 52.66
+    volume: 0
+    timestamp: 2008-12-29 12:43:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349637
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 12:44:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349641
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 12:45:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349644
+    quote_id: 1
+    value: 52.61
+    volume: 0
+    timestamp: 2008-12-29 12:46:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349649
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 12:47:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349653
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 12:48:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349657
+    quote_id: 1
+    value: 52.66
+    volume: 0
+    timestamp: 2008-12-29 12:49:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349662
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 12:50:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349666
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 12:51:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349671
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 12:52:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349677
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 12:53:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349679
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 12:54:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349684
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 12:55:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349688
+    quote_id: 1
+    value: 52.7
+    volume: 0
+    timestamp: 2008-12-29 12:56:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349694
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 12:57:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349695
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 12:58:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349699
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 12:59:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349703
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:02:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349707
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 13:03:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349711
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 13:04:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349715
+    quote_id: 1
+    value: 52.59
+    volume: 0
+    timestamp: 2008-12-29 13:05:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349719
+    quote_id: 1
+    value: 52.55
+    volume: 0
+    timestamp: 2008-12-29 13:06:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349722
+    quote_id: 1
+    value: 52.59
+    volume: 0
+    timestamp: 2008-12-29 13:07:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349727
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 13:08:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349730
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 13:09:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349733
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:10:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349736
+    quote_id: 1
+    value: 52.6
+    volume: 0
+    timestamp: 2008-12-29 13:11:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349739
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:12:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349745
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:13:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349750
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 13:14:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349754
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 13:15:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349758
+    quote_id: 1
+    value: 52.61
+    volume: 0
+    timestamp: 2008-12-29 13:16:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349762
+    quote_id: 1
+    value: 52.6
+    volume: 0
+    timestamp: 2008-12-29 13:17:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349765
+    quote_id: 1
+    value: 52.6
+    volume: 0
+    timestamp: 2008-12-29 13:18:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349770
+    quote_id: 1
+    value: 52.61
+    volume: 0
+    timestamp: 2008-12-29 13:19:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349773
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:20:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349777
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 13:21:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349781
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 13:22:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349784
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 13:23:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349787
+    quote_id: 1
+    value: 52.69
+    volume: 0
+    timestamp: 2008-12-29 13:24:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349793
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 13:25:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349796
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 13:26:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349801
+    quote_id: 1
+    value: 52.68
+    volume: 0
+    timestamp: 2008-12-29 13:27:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349806
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 13:28:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349810
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:29:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349814
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 13:30:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349818
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 13:31:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349822
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 13:32:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349826
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 13:33:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349830
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 13:34:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349834
+    quote_id: 1
+    value: 52.62
+    volume: 0
+    timestamp: 2008-12-29 13:35:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349838
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 13:36:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349842
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 13:37:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349846
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:38:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349850
+    quote_id: 1
+    value: 52.61
+    volume: 0
+    timestamp: 2008-12-29 13:39:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349854
+    quote_id: 1
+    value: 52.57
+    volume: 0
+    timestamp: 2008-12-29 13:40:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349857
+    quote_id: 1
+    value: 52.55
+    volume: 0
+    timestamp: 2008-12-29 13:41:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349861
+    quote_id: 1
+    value: 52.57
+    volume: 0
+    timestamp: 2008-12-29 13:42:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349865
+    quote_id: 1
+    value: 52.59
+    volume: 0
+    timestamp: 2008-12-29 13:43:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349869
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 13:44:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349873
+    quote_id: 1
+    value: 52.57
+    volume: 0
+    timestamp: 2008-12-29 13:45:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349877
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 13:46:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349881
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 13:47:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349883
+    quote_id: 1
+    value: 52.59
+    volume: 0
+    timestamp: 2008-12-29 13:48:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349888
+    quote_id: 1
+    value: 52.61
+    volume: 0
+    timestamp: 2008-12-29 13:49:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349892
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 13:50:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349897
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:51:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349900
+    quote_id: 1
+    value: 52.61
+    volume: 0
+    timestamp: 2008-12-29 13:52:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349904
+    quote_id: 1
+    value: 52.65
+    volume: 0
+    timestamp: 2008-12-29 13:53:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349908
+    quote_id: 1
+    value: 52.66
+    volume: 0
+    timestamp: 2008-12-29 13:54:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349912
+    quote_id: 1
+    value: 52.67
+    volume: 0
+    timestamp: 2008-12-29 13:55:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349918
+    quote_id: 1
+    value: 52.66
+    volume: 0
+    timestamp: 2008-12-29 13:56:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349922
+    quote_id: 1
+    value: 52.64
+    volume: 0
+    timestamp: 2008-12-29 13:57:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349925
+    quote_id: 1
+    value: 52.63
+    volume: 0
+    timestamp: 2008-12-29 13:58:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349931
+    quote_id: 1
+    value: 52.59
+    volume: 0
+    timestamp: 2008-12-29 13:59:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349934
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 14:00:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349939
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 14:01:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349945
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 14:02:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349947
+    quote_id: 1
+    value: 52.55
+    volume: 0
+    timestamp: 2008-12-29 14:03:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349951
+    quote_id: 1
+    value: 52.54
+    volume: 0
+    timestamp: 2008-12-29 14:04:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349955
+    quote_id: 1
+    value: 52.55
+    volume: 0
+    timestamp: 2008-12-29 14:05:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349961
+    quote_id: 1
+    value: 52.55
+    volume: 0
+    timestamp: 2008-12-29 14:06:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349964
+    quote_id: 1
+    value: 52.49
+    volume: 0
+    timestamp: 2008-12-29 14:07:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349968
+    quote_id: 1
+    value: 52.48
+    volume: 0
+    timestamp: 2008-12-29 14:08:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349972
+    quote_id: 1
+    value: 52.48
+    volume: 0
+    timestamp: 2008-12-29 14:09:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349975
+    quote_id: 1
+    value: 52.45
+    volume: 0
+    timestamp: 2008-12-29 14:10:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349979
+    quote_id: 1
+    value: 52.45
+    volume: 0
+    timestamp: 2008-12-29 14:11:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349983
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 14:12:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349987
+    quote_id: 1
+    value: 52.48
+    volume: 0
+    timestamp: 2008-12-29 14:13:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349991
+    quote_id: 1
+    value: 52.49
+    volume: 0
+    timestamp: 2008-12-29 14:14:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349995
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 14:15:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 349999
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:16:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350002
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 14:17:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350007
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 14:18:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350011
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:19:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350015
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:20:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350018
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 14:21:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350022
+    quote_id: 1
+    value: 52.41
+    volume: 0
+    timestamp: 2008-12-29 14:22:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350026
+    quote_id: 1
+    value: 52.41
+    volume: 0
+    timestamp: 2008-12-29 14:23:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350030
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:24:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350034
+    quote_id: 1
+    value: 52.43
+    volume: 0
+    timestamp: 2008-12-29 14:25:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350038
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:26:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350042
+    quote_id: 1
+    value: 52.39
+    volume: 0
+    timestamp: 2008-12-29 14:27:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350046
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:28:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350049
+    quote_id: 1
+    value: 52.35
+    volume: 0
+    timestamp: 2008-12-29 14:29:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350053
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 14:30:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350057
+    quote_id: 1
+    value: 52.39
+    volume: 0
+    timestamp: 2008-12-29 14:31:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350061
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:32:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350065
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 14:33:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350069
+    quote_id: 1
+    value: 52.39
+    volume: 0
+    timestamp: 2008-12-29 14:34:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350073
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 14:35:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350075
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:36:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350081
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:37:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350084
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 14:38:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350088
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 14:39:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350093
+    quote_id: 1
+    value: 52.39
+    volume: 0
+    timestamp: 2008-12-29 14:40:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350097
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 14:41:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350101
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 14:42:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350105
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 14:43:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350108
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 14:44:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350113
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 14:45:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350117
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 14:46:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350122
+    quote_id: 1
+    value: 52.43
+    volume: 0
+    timestamp: 2008-12-29 14:47:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350127
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 14:48:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350132
+    quote_id: 1
+    value: 52.45
+    volume: 0
+    timestamp: 2008-12-29 14:49:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350134
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 14:50:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350138
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 14:51:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350142
+    quote_id: 1
+    value: 52.47
+    volume: 0
+    timestamp: 2008-12-29 14:52:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350146
+    quote_id: 1
+    value: 52.56
+    volume: 0
+    timestamp: 2008-12-29 14:53:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350150
+    quote_id: 1
+    value: 52.55
+    volume: 0
+    timestamp: 2008-12-29 14:54:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350154
+    quote_id: 1
+    value: 52.49
+    volume: 0
+    timestamp: 2008-12-29 14:55:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350158
+    quote_id: 1
+    value: 52.5
+    volume: 0
+    timestamp: 2008-12-29 14:56:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350163
+    quote_id: 1
+    value: 52.45
+    volume: 0
+    timestamp: 2008-12-29 14:57:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350167
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 14:58:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350173
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 14:59:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350176
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 15:00:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350180
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 15:01:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350184
+    quote_id: 1
+    value: 52.39
+    volume: 0
+    timestamp: 2008-12-29 15:02:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350188
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 15:03:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350192
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 15:04:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350195
+    quote_id: 1
+    value: 52.45
+    volume: 0
+    timestamp: 2008-12-29 15:05:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350199
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 15:06:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350203
+    quote_id: 1
+    value: 52.44
+    volume: 0
+    timestamp: 2008-12-29 15:07:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350207
+    quote_id: 1
+    value: 52.45
+    volume: 0
+    timestamp: 2008-12-29 15:08:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350211
+    quote_id: 1
+    value: 52.46
+    volume: 0
+    timestamp: 2008-12-29 15:09:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350215
+    quote_id: 1
+    value: 52.43
+    volume: 0
+    timestamp: 2008-12-29 15:10:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350219
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 15:11:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350222
+    quote_id: 1
+    value: 52.43
+    volume: 0
+    timestamp: 2008-12-29 15:12:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350227
+    quote_id: 1
+    value: 52.42
+    volume: 0
+    timestamp: 2008-12-29 15:13:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350230
+    quote_id: 1
+    value: 52.43
+    volume: 0
+    timestamp: 2008-12-29 15:14:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350235
+    quote_id: 1
+    value: 52.4
+    volume: 0
+    timestamp: 2008-12-29 15:15:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350239
+    quote_id: 1
+    value: 52.38
+    volume: 0
+    timestamp: 2008-12-29 15:16:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350243
+    quote_id: 1
+    value: 52.35
+    volume: 0
+    timestamp: 2008-12-29 15:17:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350247
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 15:18:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350251
+    quote_id: 1
+    value: 52.34
+    volume: 0
+    timestamp: 2008-12-29 15:19:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350257
+    quote_id: 1
+    value: 52.33
+    volume: 0
+    timestamp: 2008-12-29 15:20:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350260
+    quote_id: 1
+    value: 52.35
+    volume: 0
+    timestamp: 2008-12-29 15:21:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350264
+    quote_id: 1
+    value: 52.37
+    volume: 0
+    timestamp: 2008-12-29 15:22:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350268
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 15:23:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350272
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 15:24:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350274
+    quote_id: 1
+    value: 52.35
+    volume: 0
+    timestamp: 2008-12-29 15:25:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350278
+    quote_id: 1
+    value: 52.35
+    volume: 0
+    timestamp: 2008-12-29 15:26:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350282
+    quote_id: 1
+    value: 52.36
+    volume: 0
+    timestamp: 2008-12-29 15:27:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350286
+    quote_id: 1
+    value: 52.35
+    volume: 0
+    timestamp: 2008-12-29 15:28:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350290
+    quote_id: 1
+    value: 52.32
+    volume: 0
+    timestamp: 2008-12-29 15:29:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350293
+    quote_id: 1
+    value: 52.29
+    volume: 0
+    timestamp: 2008-12-29 15:30:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350297
+    quote_id: 1
+    value: 52.28
+    volume: 0
+    timestamp: 2008-12-29 15:31:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350301
+    quote_id: 1
+    value: 52.32
+    volume: 0
+    timestamp: 2008-12-29 15:32:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350305
+    quote_id: 1
+    value: 52.27
+    volume: 0
+    timestamp: 2008-12-29 15:33:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350308
+    quote_id: 1
+    value: 52.16
+    volume: 0
+    timestamp: 2008-12-29 15:34:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350312
+    quote_id: 1
+    value: 52.08
+    volume: 0
+    timestamp: 2008-12-29 15:35:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350316
+    quote_id: 1
+    value: 52.06
+    volume: 0
+    timestamp: 2008-12-29 15:36:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350319
+    quote_id: 1
+    value: 52.1
+    volume: 0
+    timestamp: 2008-12-29 15:37:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350323
+    quote_id: 1
+    value: 52.06
+    volume: 0
+    timestamp: 2008-12-29 15:38:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350327
+    quote_id: 1
+    value: 52.08
+    volume: 0
+    timestamp: 2008-12-29 15:39:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350329
+    quote_id: 1
+    value: 52.05
+    volume: 0
+    timestamp: 2008-12-29 15:40:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350333
+    quote_id: 1
+    value: 52.06
+    volume: 0
+    timestamp: 2008-12-29 15:41:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350337
+    quote_id: 1
+    value: 52.09
+    volume: 0
+    timestamp: 2008-12-29 15:42:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350341
+    quote_id: 1
+    value: 52.13
+    volume: 0
+    timestamp: 2008-12-29 15:43:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350344
+    quote_id: 1
+    value: 52.14
+    volume: 0
+    timestamp: 2008-12-29 15:44:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350348
+    quote_id: 1
+    value: 52.06
+    volume: 0
+    timestamp: 2008-12-29 15:45:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350352
+    quote_id: 1
+    value: 52.09
+    volume: 0
+    timestamp: 2008-12-29 15:46:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350356
+    quote_id: 1
+    value: 52.13
+    volume: 0
+    timestamp: 2008-12-29 15:47:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350359
+    quote_id: 1
+    value: 52.18
+    volume: 0
+    timestamp: 2008-12-29 15:48:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350363
+    quote_id: 1
+    value: 52.21
+    volume: 0
+    timestamp: 2008-12-29 15:49:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350368
+    quote_id: 1
+    value: 52.24
+    volume: 0
+    timestamp: 2008-12-29 15:50:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350371
+    quote_id: 1
+    value: 52.2
+    volume: 0
+    timestamp: 2008-12-29 15:51:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350375
+    quote_id: 1
+    value: 52.22
+    volume: 0
+    timestamp: 2008-12-29 15:52:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350379
+    quote_id: 1
+    value: 52.15
+    volume: 0
+    timestamp: 2008-12-29 15:53:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350383
+    quote_id: 1
+    value: 52.12
+    volume: 0
+    timestamp: 2008-12-29 15:54:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350387
+    quote_id: 1
+    value: 52.12
+    volume: 0
+    timestamp: 2008-12-29 15:55:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350389
+    quote_id: 1
+    value: 52.09
+    volume: 0
+    timestamp: 2008-12-29 15:56:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350393
+    quote_id: 1
+    value: 52.11
+    volume: 0
+    timestamp: 2008-12-29 15:57:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350397
+    quote_id: 1
+    value: 52.12
+    volume: 0
+    timestamp: 2008-12-29 15:58:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350401
+    quote_id: 1
+    value: 52.18
+    volume: 0
+    timestamp: 2008-12-29 15:59:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350404
+    quote_id: 1
+    value: 52.19
+    volume: 0
+    timestamp: 2008-12-29 16:00:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350409
+    quote_id: 1
+    value: 52.18
+    volume: 0
+    timestamp: 2008-12-29 16:01:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350413
+    quote_id: 1
+    value: 52.18
+    volume: 0
+    timestamp: 2008-12-29 16:02:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350418
+    quote_id: 1
+    value: 52.21
+    volume: 0
+    timestamp: 2008-12-29 16:03:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350422
+    quote_id: 1
+    value: 52.2
+    volume: 0
+    timestamp: 2008-12-29 16:04:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350426
+    quote_id: 1
+    value: 52.2
+    volume: 0
+    timestamp: 2008-12-29 16:05:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350430
+    quote_id: 1
+    value: 52.12
+    volume: 0
+    timestamp: 2008-12-29 16:06:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350433
+    quote_id: 1
+    value: 52.09
+    volume: 0
+    timestamp: 2008-12-29 16:07:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350436
+    quote_id: 1
+    value: 52.08
+    volume: 0
+    timestamp: 2008-12-29 16:08:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350439
+    quote_id: 1
+    value: 52.1
+    volume: 0
+    timestamp: 2008-12-29 16:09:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350444
+    quote_id: 1
+    value: 52.07
+    volume: 0
+    timestamp: 2008-12-29 16:10:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350449
+    quote_id: 1
+    value: 52.0
+    volume: 0
+    timestamp: 2008-12-29 16:11:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350453
+    quote_id: 1
+    value: 52.01
+    volume: 0
+    timestamp: 2008-12-29 16:12:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350459
+    quote_id: 1
+    value: 52.01
+    volume: 0
+    timestamp: 2008-12-29 16:13:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350462
+    quote_id: 1
+    value: 51.97
+    volume: 0
+    timestamp: 2008-12-29 16:14:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350466
+    quote_id: 1
+    value: 51.91
+    volume: 0
+    timestamp: 2008-12-29 16:15:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350470
+    quote_id: 1
+    value: 51.85
+    volume: 0
+    timestamp: 2008-12-29 16:16:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350473
+    quote_id: 1
+    value: 51.87
+    volume: 0
+    timestamp: 2008-12-29 16:17:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350476
+    quote_id: 1
+    value: 51.82
+    volume: 0
+    timestamp: 2008-12-29 16:18:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350479
+    quote_id: 1
+    value: 51.86
+    volume: 0
+    timestamp: 2008-12-29 16:19:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350485
+    quote_id: 1
+    value: 51.78
+    volume: 0
+    timestamp: 2008-12-29 16:20:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350489
+    quote_id: 1
+    value: 51.78
+    volume: 0
+    timestamp: 2008-12-29 16:21:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350493
+    quote_id: 1
+    value: 51.82
+    volume: 0
+    timestamp: 2008-12-29 16:22:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350496
+    quote_id: 1
+    value: 51.85
+    volume: 0
+    timestamp: 2008-12-29 16:23:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350500
+    quote_id: 1
+    value: 51.93
+    volume: 0
+    timestamp: 2008-12-29 16:24:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350504
+    quote_id: 1
+    value: 51.98
+    volume: 0
+    timestamp: 2008-12-29 16:25:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350510
+    quote_id: 1
+    value: 52.0
+    volume: 0
+    timestamp: 2008-12-29 16:26:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350513
+    quote_id: 1
+    value: 51.99
+    volume: 0
+    timestamp: 2008-12-29 16:27:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350517
+    quote_id: 1
+    value: 52.0
+    volume: 0
+    timestamp: 2008-12-29 16:28:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350520
+    quote_id: 1
+    value: 52.04
+    volume: 0
+    timestamp: 2008-12-29 16:29:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350524
+    quote_id: 1
+    value: 51.97
+    volume: 0
+    timestamp: 2008-12-29 16:30:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350528
+    quote_id: 1
+    value: 52.02
+    volume: 0
+    timestamp: 2008-12-29 16:31:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350532
+    quote_id: 1
+    value: 52.03
+    volume: 0
+    timestamp: 2008-12-29 16:32:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350537
+    quote_id: 1
+    value: 52.02
+    volume: 0
+    timestamp: 2008-12-29 16:33:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350540
+    quote_id: 1
+    value: 52.07
+    volume: 0
+    timestamp: 2008-12-29 16:34:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350543
+    quote_id: 1
+    value: 52.12
+    volume: 0
+    timestamp: 2008-12-29 16:35:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350547
+    quote_id: 1
+    value: 52.1
+    volume: 0
+    timestamp: 2008-12-29 16:36:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350551
+    quote_id: 1
+    value: 52.06
+    volume: 0
+    timestamp: 2008-12-29 16:37:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350553
+    quote_id: 1
+    value: 52.05
+    volume: 0
+    timestamp: 2008-12-29 16:38:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350557
+    quote_id: 1
+    value: 52.04
+    volume: 0
+    timestamp: 2008-12-29 16:39:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350561
+    quote_id: 1
+    value: 52.03
+    volume: 0
+    timestamp: 2008-12-29 16:40:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350563
+    quote_id: 1
+    value: 52.06
+    volume: 0
+    timestamp: 2008-12-29 16:41:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350568
+    quote_id: 1
+    value: 52.04
+    volume: 0
+    timestamp: 2008-12-29 16:42:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350572
+    quote_id: 1
+    value: 51.84
+    volume: 0
+    timestamp: 2008-12-29 16:43:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350575
+    quote_id: 1
+    value: 51.77
+    volume: 0
+    timestamp: 2008-12-29 16:44:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350579
+    quote_id: 1
+    value: 51.75
+    volume: 0
+    timestamp: 2008-12-29 16:45:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350583
+    quote_id: 1
+    value: 51.76
+    volume: 0
+    timestamp: 2008-12-29 16:46:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350587
+    quote_id: 1
+    value: 51.78
+    volume: 0
+    timestamp: 2008-12-29 16:47:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350591
+    quote_id: 1
+    value: 51.76
+    volume: 0
+    timestamp: 2008-12-29 16:48:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350595
+    quote_id: 1
+    value: 51.74
+    volume: 0
+    timestamp: 2008-12-29 16:49:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350601
+    quote_id: 1
+    value: 51.73
+    volume: 0
+    timestamp: 2008-12-29 16:50:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350603
+    quote_id: 1
+    value: 51.74
+    volume: 0
+    timestamp: 2008-12-29 16:51:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350607
+    quote_id: 1
+    value: 51.73
+    volume: 0
+    timestamp: 2008-12-29 16:52:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350612
+    quote_id: 1
+    value: 51.7
+    volume: 0
+    timestamp: 2008-12-29 16:53:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350618
+    quote_id: 1
+    value: 51.71
+    volume: 0
+    timestamp: 2008-12-29 16:54:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350622
+    quote_id: 1
+    value: 51.71
+    volume: 0
+    timestamp: 2008-12-29 16:55:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350624
+    quote_id: 1
+    value: 51.71
+    volume: 0
+    timestamp: 2008-12-29 16:56:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350628
+    quote_id: 1
+    value: 51.71
+    volume: 0
+    timestamp: 2008-12-29 16:57:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350632
+    quote_id: 1
+    value: 51.68
+    volume: 0
+    timestamp: 2008-12-29 16:58:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350638
+    quote_id: 1
+    value: 51.66
+    volume: 0
+    timestamp: 2008-12-29 16:59:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350641
+    quote_id: 1
+    value: 51.54
+    volume: 0
+    timestamp: 2008-12-29 17:00:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350645
+    quote_id: 1
+    value: 51.55
+    volume: 0
+    timestamp: 2008-12-29 17:01:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350649
+    quote_id: 1
+    value: 51.5
+    volume: 0
+    timestamp: 2008-12-29 17:02:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350652
+    quote_id: 1
+    value: 51.45
+    volume: 0
+    timestamp: 2008-12-29 17:03:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350657
+    quote_id: 1
+    value: 51.47
+    volume: 0
+    timestamp: 2008-12-29 17:04:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350658
+    quote_id: 1
+    value: 51.5
+    volume: 0
+    timestamp: 2008-12-29 17:05:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350662
+    quote_id: 1
+    value: 51.49
+    volume: 0
+    timestamp: 2008-12-29 17:06:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350666
+    quote_id: 1
+    value: 51.5
+    volume: 0
+    timestamp: 2008-12-29 17:07:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350670
+    quote_id: 1
+    value: 51.44
+    volume: 0
+    timestamp: 2008-12-29 17:08:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350674
+    quote_id: 1
+    value: 51.4
+    volume: 0
+    timestamp: 2008-12-29 17:09:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350677
+    quote_id: 1
+    value: 51.39
+    volume: 0
+    timestamp: 2008-12-29 17:10:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350679
+    quote_id: 1
+    value: 51.42
+    volume: 0
+    timestamp: 2008-12-29 17:11:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350683
+    quote_id: 1
+    value: 51.43
+    volume: 0
+    timestamp: 2008-12-29 17:12:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350687
+    quote_id: 1
+    value: 51.45
+    volume: 0
+    timestamp: 2008-12-29 17:13:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350690
+    quote_id: 1
+    value: 51.44
+    volume: 0
+    timestamp: 2008-12-29 17:14:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350694
+    quote_id: 1
+    value: 51.44
+    volume: 0
+    timestamp: 2008-12-29 17:15:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350698
+    quote_id: 1
+    value: 51.47
+    volume: 0
+    timestamp: 2008-12-29 17:16:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350702
+    quote_id: 1
+    value: 51.48
+    volume: 0
+    timestamp: 2008-12-29 17:17:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350705
+    quote_id: 1
+    value: 51.48
+    volume: 0
+    timestamp: 2008-12-29 17:18:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350709
+    quote_id: 1
+    value: 51.43
+    volume: 0
+    timestamp: 2008-12-29 17:19:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350713
+    quote_id: 1
+    value: 51.47
+    volume: 0
+    timestamp: 2008-12-29 17:20:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350717
+    quote_id: 1
+    value: 51.53
+    volume: 0
+    timestamp: 2008-12-29 17:21:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350721
+    quote_id: 1
+    value: 51.54
+    volume: 0
+    timestamp: 2008-12-29 17:22:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350725
+    quote_id: 1
+    value: 51.48
+    volume: 0
+    timestamp: 2008-12-29 17:23:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350729
+    quote_id: 1
+    value: 51.5
+    volume: 0
+    timestamp: 2008-12-29 17:24:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350733
+    quote_id: 1
+    value: 51.5
+    volume: 0
+    timestamp: 2008-12-29 17:25:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350738
+    quote_id: 1
+    value: 51.53
+    volume: 0
+    timestamp: 2008-12-29 17:26:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350740
+    quote_id: 1
+    value: 51.54
+    volume: 0
+    timestamp: 2008-12-29 17:27:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350744
+    quote_id: 1
+    value: 51.52
+    volume: 0
+    timestamp: 2008-12-29 17:28:00.000000000Z
+- !ruby/object:Value
+  attributes:
+    id: 350748
+    quote_id: 1
+    value: 51.56
+    volume: 0
+    timestamp: 2008-12-29 17:29:00.000000000Z

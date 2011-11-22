@@ -1,0 +1,2431 @@
+---
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135629
+    ctw_id: 1
+    timestamp: 2008-12-29 13:00:00.000000000Z
+    pr0: 0.1666666667
+    pr1: 0.5714285714
+    pr2: 0.0
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135630
+    ctw_id: 1
+    timestamp: 2008-12-29 13:01:00.000000000Z
+    pr0: 0.3076923077
+    pr1: 0.5333333333
+    pr2: 0.25
+    depth: 2
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135631
+    ctw_id: 1
+    timestamp: 2008-12-29 13:02:00.000000000Z
+    pr0: 0.0
+    pr1: 0.5
+    pr2: 0.0
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135632
+    ctw_id: 1
+    timestamp: 2008-12-29 13:03:00.000000000Z
+    pr0: 0.1428571429
+    pr1: 0.625
+    pr2: 0.0
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135633
+    ctw_id: 1
+    timestamp: 2008-12-29 13:04:00.000000000Z
+    pr0: 0.1428571429
+    pr1: 0.625
+    pr2: 0.0
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135634
+    ctw_id: 1
+    timestamp: 2008-12-29 13:05:00.000000000Z
+    pr0: 0.1666666667
+    pr1: 0.5714285714
+    pr2: 0.0
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135635
+    ctw_id: 1
+    timestamp: 2008-12-29 13:06:00.000000000Z
+    pr0: 0.5381165919
+    pr1: 0.3177570093
+    pr2: 0.149321267
+    depth: 2
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135636
+    ctw_id: 1
+    timestamp: 2008-12-29 13:07:00.000000000Z
+    pr0: 0.5277777778
+    pr1: 0.2571428571
+    pr2: 0.1764705882
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135637
+    ctw_id: 1
+    timestamp: 2008-12-29 13:08:00.000000000Z
+    pr0: 0.5074047955
+    pr1: 0.3186309104
+    pr2: 0.1737288136
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135638
+    ctw_id: 1
+    timestamp: 2008-12-29 13:09:00.000000000Z
+    pr0: 0.5555555556
+    pr1: 0.2727272727
+    pr2: 0.2307692308
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135639
+    ctw_id: 1
+    timestamp: 2008-12-29 13:10:00.000000000Z
+    pr0: 0.3157894737
+    pr1: 0.5
+    pr2: 0.1904761905
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135640
+    ctw_id: 1
+    timestamp: 2008-12-29 13:11:00.000000000Z
+    pr0: 0.4285714286
+    pr1: 0.45
+    pr2: 0.1666666667
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135641
+    ctw_id: 1
+    timestamp: 2008-12-29 13:12:00.000000000Z
+    pr0: 0.5401785714
+    pr1: 0.3177570093
+    pr2: 0.149321267
+    depth: 2
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135642
+    ctw_id: 1
+    timestamp: 2008-12-29 13:13:00.000000000Z
+    pr0: 0.5925925926
+    pr1: 0.2608695652
+    pr2: 0.1428571429
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135643
+    ctw_id: 1
+    timestamp: 2008-12-29 13:14:00.000000000Z
+    pr0: 0.5333333333
+    pr1: 0.2142857143
+    pr2: 0.2777777778
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135644
+    ctw_id: 1
+    timestamp: 2008-12-29 13:15:00.000000000Z
+    pr0: 0.5454545455
+    pr1: 0.1
+    pr2: 0.25
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135645
+    ctw_id: 1
+    timestamp: 2008-12-29 13:16:00.000000000Z
+    pr0: 0.6666666667
+    pr1: 0.0
+    pr2: 0.1428571429
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135646
+    ctw_id: 1
+    timestamp: 2008-12-29 13:17:00.000000000Z
+    pr0: 0.6363636364
+    pr1: 0.0
+    pr2: 0.2
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135647
+    ctw_id: 1
+    timestamp: 2008-12-29 13:18:00.000000000Z
+    pr0: 0.5555555556
+    pr1: 0.0
+    pr2: 0.25
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135648
+    ctw_id: 1
+    timestamp: 2008-12-29 13:19:00.000000000Z
+    pr0: 0.5080985915
+    pr1: 0.3186309104
+    pr2: 0.1737288136
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135649
+    ctw_id: 1
+    timestamp: 2008-12-29 13:20:00.000000000Z
+    pr0: 0.6
+    pr1: 0.0
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135650
+    ctw_id: 1
+    timestamp: 2008-12-29 13:21:00.000000000Z
+    pr0: 0.0
+    pr1: 0.5
+    pr2: 0.0
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135651
+    ctw_id: 1
+    timestamp: 2008-12-29 13:22:00.000000000Z
+    pr0: 0.28
+    pr1: 0.5
+    pr2: 0.1904761905
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135652
+    ctw_id: 1
+    timestamp: 2008-12-29 13:23:00.000000000Z
+    pr0: 0.6666666667
+    pr1: 0.1428571429
+    pr2: 0.0
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135653
+    ctw_id: 1
+    timestamp: 2008-12-29 13:24:00.000000000Z
+    pr0: 0.5555555556
+    pr1: 0.2
+    pr2: 0.1428571429
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135654
+    ctw_id: 1
+    timestamp: 2008-12-29 13:25:00.000000000Z
+    pr0: 0.6
+    pr1: 0.0
+    pr2: 0.0
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135655
+    ctw_id: 1
+    timestamp: 2008-12-29 13:26:00.000000000Z
+    pr0: 0.3
+    pr1: 0.5
+    pr2: 0.2222222222
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135656
+    ctw_id: 1
+    timestamp: 2008-12-29 13:27:00.000000000Z
+    pr0: 0.5925925926
+    pr1: 0.1509433962
+    pr2: 0.2363636364
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135657
+    ctw_id: 1
+    timestamp: 2008-12-29 13:28:00.000000000Z
+    pr0: 0.5714285714
+    pr1: 0.125
+    pr2: 0.1666666667
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135658
+    ctw_id: 1
+    timestamp: 2008-12-29 13:29:00.000000000Z
+    pr0: 0.5
+    pr1: 0.1666666667
+    pr2: 0.2
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135659
+    ctw_id: 1
+    timestamp: 2008-12-29 13:30:00.000000000Z
+    pr0: 0.5526315789
+    pr1: 0.2162162162
+    pr2: 0.2258064516
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135660
+    ctw_id: 1
+    timestamp: 2008-12-29 13:31:00.000000000Z
+    pr0: 0.5227272727
+    pr1: 0.347826087
+    pr2: 0.1666666667
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135661
+    ctw_id: 1
+    timestamp: 2008-12-29 13:32:00.000000000Z
+    pr0: 0.4166666667
+    pr1: 0.5
+    pr2: 0.0769230769
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135662
+    ctw_id: 1
+    timestamp: 2008-12-29 13:33:00.000000000Z
+    pr0: 0.5279187817
+    pr1: 0.2751322751
+    pr2: 0.1989795918
+    depth: 2
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135663
+    ctw_id: 1
+    timestamp: 2008-12-29 13:34:00.000000000Z
+    pr0: 0.5789473684
+    pr1: 0.2195121951
+    pr2: 0.2142857143
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135664
+    ctw_id: 1
+    timestamp: 2008-12-29 13:35:00.000000000Z
+    pr0: 0.652173913
+    pr1: 0.125
+    pr2: 0.2
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135665
+    ctw_id: 1
+    timestamp: 2008-12-29 13:36:00.000000000Z
+    pr0: 0.5625
+    pr1: 0.1333333333
+    pr2: 0.2727272727
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135666
+    ctw_id: 1
+    timestamp: 2008-12-29 13:37:00.000000000Z
+    pr0: 0.6
+    pr1: 0.2
+    pr2: 0.1428571429
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135667
+    ctw_id: 1
+    timestamp: 2008-12-29 13:38:00.000000000Z
+    pr0: 0.5
+    pr1: 0.2
+    pr2: 0.25
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135668
+    ctw_id: 1
+    timestamp: 2008-12-29 13:39:00.000000000Z
+    pr0: 0.4
+    pr1: 0.5483870968
+    pr2: 0.03125
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135669
+    ctw_id: 1
+    timestamp: 2008-12-29 13:40:00.000000000Z
+    pr0: 0.5442477876
+    pr1: 0.3177570093
+    pr2: 0.149321267
+    depth: 2
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135670
+    ctw_id: 1
+    timestamp: 2008-12-29 13:41:00.000000000Z
+    pr0: 0.5526315789
+    pr1: 0.2571428571
+    pr2: 0.1764705882
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135671
+    ctw_id: 1
+    timestamp: 2008-12-29 13:42:00.000000000Z
+    pr0: 0.6
+    pr1: 0.1666666667
+    pr2: 0.0
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135672
+    ctw_id: 1
+    timestamp: 2008-12-29 13:43:00.000000000Z
+    pr0: 0.5555555556
+    pr1: 0.2666666667
+    pr2: 0.2608695652
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135673
+    ctw_id: 1
+    timestamp: 2008-12-29 13:44:00.000000000Z
+    pr0: 0.7
+    pr1: 0.1666666667
+    pr2: 0.2307692308
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135674
+    ctw_id: 1
+    timestamp: 2008-12-29 13:45:00.000000000Z
+    pr0: 0.5263157895
+    pr1: 0.2777777778
+    pr2: 0.1538461538
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135675
+    ctw_id: 1
+    timestamp: 2008-12-29 13:46:00.000000000Z
+    pr0: 0.4852887759
+    pr1: 0.3602326427
+    pr2: 0.154294032
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135676
+    ctw_id: 1
+    timestamp: 2008-12-29 13:47:00.000000000Z
+    pr0: 0.509135629
+    pr1: 0.3186309104
+    pr2: 0.1737288136
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135677
+    ctw_id: 1
+    timestamp: 2008-12-29 13:48:00.000000000Z
+    pr0: 0.5357142857
+    pr1: 0.275862069
+    pr2: 0.1666666667
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135678
+    ctw_id: 1
+    timestamp: 2008-12-29 13:49:00.000000000Z
+    pr0: 0.2
+    pr1: 0.6
+    pr2: 0.1111111111
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135679
+    ctw_id: 1
+    timestamp: 2008-12-29 13:50:00.000000000Z
+    pr0: 0.5093080436
+    pr1: 0.3186309104
+    pr2: 0.1737288136
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135680
+    ctw_id: 1
+    timestamp: 2008-12-29 13:51:00.000000000Z
+    pr0: 0.5
+    pr1: 0.0
+    pr2: 0.0
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135681
+    ctw_id: 1
+    timestamp: 2008-12-29 13:52:00.000000000Z
+    pr0: 0.448469531
+    pr1: 0.36433013
+    pr2: 0.1909761635
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135682
+    ctw_id: 1
+    timestamp: 2008-12-29 13:53:00.000000000Z
+    pr0: 0.5909090909
+    pr1: 0.2380952381
+    pr2: 0.1538461538
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135683
+    ctw_id: 1
+    timestamp: 2008-12-29 13:54:00.000000000Z
+    pr0: 0.6
+    pr1: 0.0
+    pr2: 0.0
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135684
+    ctw_id: 1
+    timestamp: 2008-12-29 13:55:00.000000000Z
+    pr0: 0.1818181818
+    pr1: 0.4
+    pr2: 0.5
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135685
+    ctw_id: 1
+    timestamp: 2008-12-29 13:56:00.000000000Z
+    pr0: 0.6
+    pr1: 0.0
+    pr2: 0.0
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135686
+    ctw_id: 1
+    timestamp: 2008-12-29 13:57:00.000000000Z
+    pr0: 0.625
+    pr1: 0.0
+    pr2: 0.1428571429
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135687
+    ctw_id: 1
+    timestamp: 2008-12-29 13:58:00.000000000Z
+    pr0: 0.6
+    pr1: 0.0
+    pr2: 0.0
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135688
+    ctw_id: 1
+    timestamp: 2008-12-29 13:59:00.000000000Z
+    pr0: 0.5
+    pr1: 0.0
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135689
+    ctw_id: 1
+    timestamp: 2008-12-29 14:00:00.000000000Z
+    pr0: 0.2
+    pr1: 0.6666666667
+    pr2: 0.125
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135690
+    ctw_id: 1
+    timestamp: 2008-12-29 14:01:00.000000000Z
+    pr0: 0.5151515152
+    pr1: 0.3333333333
+    pr2: 0.1290322581
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135691
+    ctw_id: 1
+    timestamp: 2008-12-29 14:02:00.000000000Z
+    pr0: 0.5
+    pr1: 0.3333333333
+    pr2: 0.0
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135692
+    ctw_id: 1
+    timestamp: 2008-12-29 14:03:00.000000000Z
+    pr0: 0.5555555556
+    pr1: 0.3333333333
+    pr2: 0.0
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135693
+    ctw_id: 1
+    timestamp: 2008-12-29 14:04:00.000000000Z
+    pr0: 0.6
+    pr1: 0.1818181818
+    pr2: 0.1428571429
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135694
+    ctw_id: 1
+    timestamp: 2008-12-29 14:05:00.000000000Z
+    pr0: 0.5714285714
+    pr1: 0.125
+    pr2: 0.1666666667
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135695
+    ctw_id: 1
+    timestamp: 2008-12-29 14:06:00.000000000Z
+    pr0: 0.5196998124
+    pr1: 0.3838951311
+    pr2: 0.1165501166
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135696
+    ctw_id: 1
+    timestamp: 2008-12-29 14:07:00.000000000Z
+    pr0: 0.5292682927
+    pr1: 0.3975308642
+    pr2: 0.0955414013
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135697
+    ctw_id: 1
+    timestamp: 2008-12-29 14:08:00.000000000Z
+    pr0: 0.5304136253
+    pr1: 0.3975308642
+    pr2: 0.0955414013
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135698
+    ctw_id: 1
+    timestamp: 2008-12-29 14:09:00.000000000Z
+    pr0: 0.5315533981
+    pr1: 0.3975308642
+    pr2: 0.0955414013
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135699
+    ctw_id: 1
+    timestamp: 2008-12-29 14:10:00.000000000Z
+    pr0: 0.5326876513
+    pr1: 0.3975308642
+    pr2: 0.0955414013
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135700
+    ctw_id: 1
+    timestamp: 2008-12-29 14:11:00.000000000Z
+    pr0: 0.3076923077
+    pr1: 0.7
+    pr2: 0.0
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135701
+    ctw_id: 1
+    timestamp: 2008-12-29 14:12:00.000000000Z
+    pr0: 0.2857142857
+    pr1: 0.6
+    pr2: 0.0
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135702
+    ctw_id: 1
+    timestamp: 2008-12-29 14:13:00.000000000Z
+    pr0: 0.5833333333
+    pr1: 0.375
+    pr2: 0.0
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135703
+    ctw_id: 1
+    timestamp: 2008-12-29 14:14:00.000000000Z
+    pr0: 0.4878930249
+    pr1: 0.3602326427
+    pr2: 0.154294032
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135704
+    ctw_id: 1
+    timestamp: 2008-12-29 14:15:00.000000000Z
+    pr0: 0.2972972973
+    pr1: 0.5714285714
+    pr2: 0.3333333333
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135705
+    ctw_id: 1
+    timestamp: 2008-12-29 14:16:00.000000000Z
+    pr0: 0.3855421687
+    pr1: 0.5263157895
+    pr2: 0.2903225806
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135706
+    ctw_id: 1
+    timestamp: 2008-12-29 14:17:00.000000000Z
+    pr0: 0.5352380952
+    pr1: 0.3320683112
+    pr2: 0.1329479769
+    depth: 2
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135707
+    ctw_id: 1
+    timestamp: 2008-12-29 14:18:00.000000000Z
+    pr0: 0.6
+    pr1: 0.4285714286
+    pr2: 0.0
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135708
+    ctw_id: 1
+    timestamp: 2008-12-29 14:19:00.000000000Z
+    pr0: 0.5612535613
+    pr1: 0.3253731343
+    pr2: 0.1239193084
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135709
+    ctw_id: 1
+    timestamp: 2008-12-29 14:20:00.000000000Z
+    pr0: 0.5620915033
+    pr1: 0.3549488055
+    pr2: 0.0924092409
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135710
+    ctw_id: 1
+    timestamp: 2008-12-29 14:21:00.000000000Z
+    pr0: 0.5381818182
+    pr1: 0.3893129771
+    pr2: 0.0845588235
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135711
+    ctw_id: 1
+    timestamp: 2008-12-29 14:22:00.000000000Z
+    pr0: 0.6666666667
+    pr1: 0.0
+    pr2: 0.0
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135712
+    ctw_id: 1
+    timestamp: 2008-12-29 14:23:00.000000000Z
+    pr0: 0.5294117647
+    pr1: 0.3601694915
+    pr2: 0.1063829787
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135713
+    ctw_id: 1
+    timestamp: 2008-12-29 14:24:00.000000000Z
+    pr0: 0.5422222222
+    pr1: 0.371559633
+    pr2: 0.0900900901
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135714
+    ctw_id: 1
+    timestamp: 2008-12-29 14:25:00.000000000Z
+    pr0: 0.5188679245
+    pr1: 0.3666666667
+    pr2: 0.1100478469
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135715
+    ctw_id: 1
+    timestamp: 2008-12-29 14:26:00.000000000Z
+    pr0: 0.5174129353
+    pr1: 0.3768844221
+    pr2: 0.101010101
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135716
+    ctw_id: 1
+    timestamp: 2008-12-29 14:27:00.000000000Z
+    pr0: 0.5333333333
+    pr1: 0.378238342
+    pr2: 0.0833333333
+    depth: 12
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135717
+    ctw_id: 1
+    timestamp: 2008-12-29 14:28:00.000000000Z
+    pr0: 0.4807342784
+    pr1: 0.4084045843
+    pr2: 0.1142322097
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135718
+    ctw_id: 1
+    timestamp: 2008-12-29 14:29:00.000000000Z
+    pr0: 0.4808286389
+    pr1: 0.4084045843
+    pr2: 0.1142322097
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135719
+    ctw_id: 1
+    timestamp: 2008-12-29 14:30:00.000000000Z
+    pr0: 0.625
+    pr1: 0.3333333333
+    pr2: 0.0
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135720
+    ctw_id: 1
+    timestamp: 2008-12-29 14:31:00.000000000Z
+    pr0: 0.347826087
+    pr1: 0.55
+    pr2: 0.2
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135721
+    ctw_id: 1
+    timestamp: 2008-12-29 14:32:00.000000000Z
+    pr0: 0.6363636364
+    pr1: 0.25
+    pr2: 0.0
+    depth: 16
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135722
+    ctw_id: 1
+    timestamp: 2008-12-29 14:33:00.000000000Z
+    pr0: 0.5454545455
+    pr1: 0.3
+    pr2: 0.0
+    depth: 16
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135723
+    ctw_id: 1
+    timestamp: 2008-12-29 14:34:00.000000000Z
+    pr0: 0.4074074074
+    pr1: 0.56
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135724
+    ctw_id: 1
+    timestamp: 2008-12-29 14:35:00.000000000Z
+    pr0: 0.4074074074
+    pr1: 0.52
+    pr2: 0.0625
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135725
+    ctw_id: 1
+    timestamp: 2008-12-29 14:36:00.000000000Z
+    pr0: 0.5454545455
+    pr1: 0.4285714286
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135726
+    ctw_id: 1
+    timestamp: 2008-12-29 14:37:00.000000000Z
+    pr0: 0.2
+    pr1: 0.5714285714
+    pr2: 0.0
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135727
+    ctw_id: 1
+    timestamp: 2008-12-29 14:38:00.000000000Z
+    pr0: 0.25
+    pr1: 0.5
+    pr2: 0.0
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135728
+    ctw_id: 1
+    timestamp: 2008-12-29 14:39:00.000000000Z
+    pr0: 0.2
+    pr1: 0.5
+    pr2: 0.25
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135729
+    ctw_id: 1
+    timestamp: 2008-12-29 14:40:00.000000000Z
+    pr0: 0.5833333333
+    pr1: 0.2666666667
+    pr2: 0.1538461538
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135730
+    ctw_id: 1
+    timestamp: 2008-12-29 14:41:00.000000000Z
+    pr0: 0.521978022
+    pr1: 0.4301675978
+    pr2: 0.0610687023
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135731
+    ctw_id: 1
+    timestamp: 2008-12-29 14:42:00.000000000Z
+    pr0: 0.6111111111
+    pr1: 0.2666666667
+    pr2: 0.1
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135732
+    ctw_id: 1
+    timestamp: 2008-12-29 14:43:00.000000000Z
+    pr0: 0.5328947368
+    pr1: 0.2517006803
+    pr2: 0.2207792208
+    depth: 2
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135733
+    ctw_id: 1
+    timestamp: 2008-12-29 14:44:00.000000000Z
+    pr0: 0.5
+    pr1: 0.375
+    pr2: 0.2
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135734
+    ctw_id: 1
+    timestamp: 2008-12-29 14:45:00.000000000Z
+    pr0: 0.496941896
+    pr1: 0.3849728892
+    pr2: 0.1244131455
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135735
+    ctw_id: 1
+    timestamp: 2008-12-29 14:46:00.000000000Z
+    pr0: 0.5
+    pr1: 0.4358974359
+    pr2: 0.15625
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135736
+    ctw_id: 1
+    timestamp: 2008-12-29 14:47:00.000000000Z
+    pr0: 0.32
+    pr1: 0.5416666667
+    pr2: 0.0952380952
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135737
+    ctw_id: 1
+    timestamp: 2008-12-29 14:48:00.000000000Z
+    pr0: 0.3684210526
+    pr1: 0.5833333333
+    pr2: 0.0476190476
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135738
+    ctw_id: 1
+    timestamp: 2008-12-29 14:49:00.000000000Z
+    pr0: 0.5290322581
+    pr1: 0.2517006803
+    pr2: 0.2207792208
+    depth: 2
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135739
+    ctw_id: 1
+    timestamp: 2008-12-29 14:50:00.000000000Z
+    pr0: 0.375
+    pr1: 0.5
+    pr2: 0.0
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135740
+    ctw_id: 1
+    timestamp: 2008-12-29 14:51:00.000000000Z
+    pr0: 0.4977099237
+    pr1: 0.3849728892
+    pr2: 0.1244131455
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135741
+    ctw_id: 1
+    timestamp: 2008-12-29 14:52:00.000000000Z
+    pr0: 0.5
+    pr1: 0.4615384615
+    pr2: 0.15
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135742
+    ctw_id: 1
+    timestamp: 2008-12-29 14:53:00.000000000Z
+    pr0: 0.5384615385
+    pr1: 0.3333333333
+    pr2: 0.1111111111
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135743
+    ctw_id: 1
+    timestamp: 2008-12-29 14:54:00.000000000Z
+    pr0: 0.5194444444
+    pr1: 0.3797468354
+    pr2: 0.1040221914
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135744
+    ctw_id: 1
+    timestamp: 2008-12-29 14:55:00.000000000Z
+    pr0: 0.5231910946
+    pr1: 0.3838951311
+    pr2: 0.1165501166
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135745
+    ctw_id: 1
+    timestamp: 2008-12-29 14:56:00.000000000Z
+    pr0: 0.5338164251
+    pr1: 0.3975308642
+    pr2: 0.0955414013
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135746
+    ctw_id: 1
+    timestamp: 2008-12-29 14:57:00.000000000Z
+    pr0: 0.534939759
+    pr1: 0.3975308642
+    pr2: 0.0955414013
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135747
+    ctw_id: 1
+    timestamp: 2008-12-29 14:58:00.000000000Z
+    pr0: 0.5360576923
+    pr1: 0.3975308642
+    pr2: 0.0955414013
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135748
+    ctw_id: 1
+    timestamp: 2008-12-29 14:59:00.000000000Z
+    pr0: 0.6111111111
+    pr1: 0.2941176471
+    pr2: 0.0
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135749
+    ctw_id: 1
+    timestamp: 2008-12-29 15:00:00.000000000Z
+    pr0: 0.0
+    pr1: 0.6
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135750
+    ctw_id: 1
+    timestamp: 2008-12-29 15:01:00.000000000Z
+    pr0: 0.0
+    pr1: 0.6
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135751
+    ctw_id: 1
+    timestamp: 2008-12-29 15:02:00.000000000Z
+    pr0: 0.6
+    pr1: 0.3333333333
+    pr2: 0.0
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135752
+    ctw_id: 1
+    timestamp: 2008-12-29 15:03:00.000000000Z
+    pr0: 0.5714285714
+    pr1: 0.3333333333
+    pr2: 0.0
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135753
+    ctw_id: 1
+    timestamp: 2008-12-29 15:04:00.000000000Z
+    pr0: 0.0
+    pr1: 0.6
+    pr2: 0.0
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135754
+    ctw_id: 1
+    timestamp: 2008-12-29 15:05:00.000000000Z
+    pr0: 0.4904779015
+    pr1: 0.3602326427
+    pr2: 0.152987761
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135755
+    ctw_id: 1
+    timestamp: 2008-12-29 15:06:00.000000000Z
+    pr0: 0.4906609195
+    pr1: 0.3602326427
+    pr2: 0.152987761
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135756
+    ctw_id: 1
+    timestamp: 2008-12-29 15:07:00.000000000Z
+    pr0: 0.5
+    pr1: 0.3849728892
+    pr2: 0.1218583397
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135757
+    ctw_id: 1
+    timestamp: 2008-12-29 15:08:00.000000000Z
+    pr0: 0.5003790751
+    pr1: 0.3849728892
+    pr2: 0.1218583397
+    depth: 3
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135758
+    ctw_id: 1
+    timestamp: 2008-12-29 15:09:00.000000000Z
+    pr0: 0.5220385675
+    pr1: 0.3797468354
+    pr2: 0.1040221914
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135759
+    ctw_id: 1
+    timestamp: 2008-12-29 15:10:00.000000000Z
+    pr0: 0.522696011
+    pr1: 0.3797468354
+    pr2: 0.1040221914
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135760
+    ctw_id: 1
+    timestamp: 2008-12-29 15:11:00.000000000Z
+    pr0: 0.25
+    pr1: 0.5714285714
+    pr2: 0.0
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135761
+    ctw_id: 1
+    timestamp: 2008-12-29 15:12:00.000000000Z
+    pr0: 0.3333333333
+    pr1: 0.6153846154
+    pr2: 0.0
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135762
+    ctw_id: 1
+    timestamp: 2008-12-29 15:13:00.000000000Z
+    pr0: 0.6
+    pr1: 0.3448275862
+    pr2: 0.0769230769
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135763
+    ctw_id: 1
+    timestamp: 2008-12-29 15:14:00.000000000Z
+    pr0: 0.0
+    pr1: 0.6666666667
+    pr2: 0.0
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135764
+    ctw_id: 1
+    timestamp: 2008-12-29 15:15:00.000000000Z
+    pr0: 0.3333333333
+    pr1: 0.5555555556
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135765
+    ctw_id: 1
+    timestamp: 2008-12-29 15:16:00.000000000Z
+    pr0: 0.5833333333
+    pr1: 0.2608695652
+    pr2: 0.2222222222
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135766
+    ctw_id: 1
+    timestamp: 2008-12-29 15:17:00.000000000Z
+    pr0: 0.6666666667
+    pr1: 0.25
+    pr2: 0.1
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135767
+    ctw_id: 1
+    timestamp: 2008-12-29 15:18:00.000000000Z
+    pr0: 0.5
+    pr1: 0.25
+    pr2: 0.1428571429
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135768
+    ctw_id: 1
+    timestamp: 2008-12-29 15:19:00.000000000Z
+    pr0: 0.6
+    pr1: 0.3157894737
+    pr2: 0.0
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135769
+    ctw_id: 1
+    timestamp: 2008-12-29 15:20:00.000000000Z
+    pr0: 0.4146567718
+    pr1: 0.4939422181
+    pr2: 0.0967741935
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135770
+    ctw_id: 1
+    timestamp: 2008-12-29 15:21:00.000000000Z
+    pr0: 0.5333333333
+    pr1: 0.4444444444
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135771
+    ctw_id: 1
+    timestamp: 2008-12-29 15:22:00.000000000Z
+    pr0: 0.2
+    pr1: 0.5555555556
+    pr2: 0.1428571429
+    depth: 12
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135772
+    ctw_id: 1
+    timestamp: 2008-12-29 15:23:00.000000000Z
+    pr0: 0.25
+    pr1: 0.2727272727
+    pr2: 0.5714285714
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135773
+    ctw_id: 1
+    timestamp: 2008-12-29 15:24:00.000000000Z
+    pr0: 0.2142857143
+    pr1: 0.5555555556
+    pr2: 0.3076923077
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135774
+    ctw_id: 1
+    timestamp: 2008-12-29 15:25:00.000000000Z
+    pr0: 0.25
+    pr1: 0.625
+    pr2: 0.1818181818
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135775
+    ctw_id: 1
+    timestamp: 2008-12-29 15:26:00.000000000Z
+    pr0: 0.2727272727
+    pr1: 0.5714285714
+    pr2: 0.2
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135776
+    ctw_id: 1
+    timestamp: 2008-12-29 15:27:00.000000000Z
+    pr0: 0.2727272727
+    pr1: 0.5714285714
+    pr2: 0.2
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135777
+    ctw_id: 1
+    timestamp: 2008-12-29 15:28:00.000000000Z
+    pr0: 0.3
+    pr1: 0.6666666667
+    pr2: 0.1111111111
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135778
+    ctw_id: 1
+    timestamp: 2008-12-29 15:29:00.000000000Z
+    pr0: 0.2222222222
+    pr1: 0.6666666667
+    pr2: 0.125
+    depth: 12
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135779
+    ctw_id: 1
+    timestamp: 2008-12-29 15:30:00.000000000Z
+    pr0: 0.2222222222
+    pr1: 0.6666666667
+    pr2: 0.125
+    depth: 13
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135780
+    ctw_id: 1
+    timestamp: 2008-12-29 15:31:00.000000000Z
+    pr0: 0.3333333333
+    pr1: 0.625
+    pr2: 0.1
+    depth: 13
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135781
+    ctw_id: 1
+    timestamp: 2008-12-29 15:32:00.000000000Z
+    pr0: 0.5384615385
+    pr1: 0.3333333333
+    pr2: 0.0909090909
+    depth: 13
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135782
+    ctw_id: 1
+    timestamp: 2008-12-29 15:33:00.000000000Z
+    pr0: 0.1428571429
+    pr1: 0.25
+    pr2: 0.5
+    depth: 17
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135783
+    ctw_id: 1
+    timestamp: 2008-12-29 15:34:00.000000000Z
+    pr0: 0.4226646248
+    pr1: 0.5
+    pr2: 0.0790322581
+    depth: 13
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135784
+    ctw_id: 1
+    timestamp: 2008-12-29 15:35:00.000000000Z
+    pr0: 0.6666666667
+    pr1: 0.0
+    pr2: 0.0
+    depth: 18
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135785
+    ctw_id: 1
+    timestamp: 2008-12-29 15:36:00.000000000Z
+    pr0: 0.6
+    pr1: 0.0
+    pr2: 0.0
+    depth: 18
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135786
+    ctw_id: 1
+    timestamp: 2008-12-29 15:37:00.000000000Z
+    pr0: 0.4229452055
+    pr1: 0.5051546392
+    pr2: 0.0742753623
+    depth: 14
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135787
+    ctw_id: 1
+    timestamp: 2008-12-29 15:38:00.000000000Z
+    pr0: 0.4239316239
+    pr1: 0.5051546392
+    pr2: 0.0742753623
+    depth: 14
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135788
+    ctw_id: 1
+    timestamp: 2008-12-29 15:39:00.000000000Z
+    pr0: 0.443452381
+    pr1: 0.5096418733
+    pr2: 0.102661597
+    depth: 18
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135789
+    ctw_id: 1
+    timestamp: 2008-12-29 15:40:00.000000000Z
+    pr0: 0.4241573034
+    pr1: 0.5289473684
+    pr2: 0.0890410959
+    depth: 19
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135790
+    ctw_id: 1
+    timestamp: 2008-12-29 15:41:00.000000000Z
+    pr0: 0.4246987952
+    pr1: 0.5297450425
+    pr2: 0.0839416058
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135791
+    ctw_id: 1
+    timestamp: 2008-12-29 15:42:00.000000000Z
+    pr0: 0.4011299435
+    pr1: 0.5297450425
+    pr2: 0.0839416058
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135792
+    ctw_id: 1
+    timestamp: 2008-12-29 15:43:00.000000000Z
+    pr0: 0.4028169014
+    pr1: 0.5297450425
+    pr2: 0.0839416058
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135793
+    ctw_id: 1
+    timestamp: 2008-12-29 15:44:00.000000000Z
+    pr0: 0.7142857143
+    pr1: 0.0
+    pr2: 0.0
+    depth: 12
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135794
+    ctw_id: 1
+    timestamp: 2008-12-29 15:45:00.000000000Z
+    pr0: 0.7
+    pr1: 0.1818181818
+    pr2: 0.0
+    depth: 15
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135795
+    ctw_id: 1
+    timestamp: 2008-12-29 15:46:00.000000000Z
+    pr0: 0.1428571429
+    pr1: 0.625
+    pr2: 0.0
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135796
+    ctw_id: 1
+    timestamp: 2008-12-29 15:47:00.000000000Z
+    pr0: 0.6666666667
+    pr1: 0.25
+    pr2: 0.0
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135797
+    ctw_id: 1
+    timestamp: 2008-12-29 15:48:00.000000000Z
+    pr0: 0.6
+    pr1: 0.2957746479
+    pr2: 0.1014492754
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135798
+    ctw_id: 1
+    timestamp: 2008-12-29 15:49:00.000000000Z
+    pr0: 0.7142857143
+    pr1: 0.0
+    pr2: 0.0
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135799
+    ctw_id: 1
+    timestamp: 2008-12-29 15:50:00.000000000Z
+    pr0: 0.6666666667
+    pr1: 0.0
+    pr2: 0.0
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135800
+    ctw_id: 1
+    timestamp: 2008-12-29 15:51:00.000000000Z
+    pr0: 0.6470588235
+    pr1: 0.2142857143
+    pr2: 0.125
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135801
+    ctw_id: 1
+    timestamp: 2008-12-29 15:52:00.000000000Z
+    pr0: 0.6
+    pr1: 0.0
+    pr2: 0.0
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135802
+    ctw_id: 1
+    timestamp: 2008-12-29 15:53:00.000000000Z
+    pr0: 0.5753424658
+    pr1: 0.2535211268
+    pr2: 0.1571428571
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135803
+    ctw_id: 1
+    timestamp: 2008-12-29 15:54:00.000000000Z
+    pr0: 0.625
+    pr1: 0.1428571429
+    pr2: 0.1333333333
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135804
+    ctw_id: 1
+    timestamp: 2008-12-29 15:55:00.000000000Z
+    pr0: 0.5466637109
+    pr1: 0.3517241379
+    pr2: 0.1029411765
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135805
+    ctw_id: 1
+    timestamp: 2008-12-29 15:56:00.000000000Z
+    pr0: 0.3333333333
+    pr1: 0.5945945946
+    pr2: 0.125
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135806
+    ctw_id: 1
+    timestamp: 2008-12-29 15:57:00.000000000Z
+    pr0: 0.2631578947
+    pr1: 0.6111111111
+    pr2: 0.0588235294
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135807
+    ctw_id: 1
+    timestamp: 2008-12-29 15:58:00.000000000Z
+    pr0: 0.6428571429
+    pr1: 0.34375
+    pr2: 0.1111111111
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135808
+    ctw_id: 1
+    timestamp: 2008-12-29 15:59:00.000000000Z
+    pr0: 0.2857142857
+    pr1: 0.5384615385
+    pr2: 0.3333333333
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135809
+    ctw_id: 1
+    timestamp: 2008-12-29 16:00:00.000000000Z
+    pr0: 0.1818181818
+    pr1: 0.6
+    pr2: 0.2
+    depth: 14
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135810
+    ctw_id: 1
+    timestamp: 2008-12-29 16:01:00.000000000Z
+    pr0: 0.3928571429
+    pr1: 0.5769230769
+    pr2: 0.0
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135811
+    ctw_id: 1
+    timestamp: 2008-12-29 16:02:00.000000000Z
+    pr0: 0.2727272727
+    pr1: 0.6
+    pr2: 0.0
+    depth: 14
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135812
+    ctw_id: 1
+    timestamp: 2008-12-29 16:03:00.000000000Z
+    pr0: 0.1666666667
+    pr1: 0.625
+    pr2: 0.1111111111
+    depth: 15
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135813
+    ctw_id: 1
+    timestamp: 2008-12-29 16:04:00.000000000Z
+    pr0: 0.5467641844
+    pr1: 0.3517241379
+    pr2: 0.1029411765
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135814
+    ctw_id: 1
+    timestamp: 2008-12-29 16:05:00.000000000Z
+    pr0: 0.5727699531
+    pr1: 0.2857142857
+    pr2: 0.1374407583
+    depth: 4
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135815
+    ctw_id: 1
+    timestamp: 2008-12-29 16:06:00.000000000Z
+    pr0: 0.6339869281
+    pr1: 0.2715231788
+    pr2: 0.0855263158
+    depth: 5
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135816
+    ctw_id: 1
+    timestamp: 2008-12-29 16:07:00.000000000Z
+    pr0: 0.6
+    pr1: 0.4444444444
+    pr2: 0.0
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135817
+    ctw_id: 1
+    timestamp: 2008-12-29 16:08:00.000000000Z
+    pr0: 0.6956521739
+    pr1: 0.2083333333
+    pr2: 0.0526315789
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135818
+    ctw_id: 1
+    timestamp: 2008-12-29 16:09:00.000000000Z
+    pr0: 0.5462962963
+    pr1: 0.4150943396
+    pr2: 0.0285714286
+    depth: 6
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135819
+    ctw_id: 1
+    timestamp: 2008-12-29 16:10:00.000000000Z
+    pr0: 0.3333333333
+    pr1: 0.5384615385
+    pr2: 0.3333333333
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135820
+    ctw_id: 1
+    timestamp: 2008-12-29 16:11:00.000000000Z
+    pr0: 0.5714285714
+    pr1: 0.3636363636
+    pr2: 0.0
+    depth: 8
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135821
+    ctw_id: 1
+    timestamp: 2008-12-29 16:12:00.000000000Z
+    pr0: 0.6153846154
+    pr1: 0.25
+    pr2: 0.0
+    depth: 7
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135822
+    ctw_id: 1
+    timestamp: 2008-12-29 16:13:00.000000000Z
+    pr0: 0.1666666667
+    pr1: 0.6
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135823
+    ctw_id: 1
+    timestamp: 2008-12-29 16:14:00.000000000Z
+    pr0: 0.1111111111
+    pr1: 0.75
+    pr2: 0.0
+    depth: 9
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135824
+    ctw_id: 1
+    timestamp: 2008-12-29 16:15:00.000000000Z
+    pr0: 0.2222222222
+    pr1: 0.625
+    pr2: 0.0
+    depth: 10
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135825
+    ctw_id: 1
+    timestamp: 2008-12-29 16:16:00.000000000Z
+    pr0: 0.25
+    pr1: 0.5714285714
+    pr2: 0.0
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135826
+    ctw_id: 1
+    timestamp: 2008-12-29 16:17:00.000000000Z
+    pr0: 0.5185185185
+    pr1: 0.4489795918
+    pr2: 0.0555555556
+    depth: 11
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135827
+    ctw_id: 1
+    timestamp: 2008-12-29 16:18:00.000000000Z
+    pr0: 0.5128015896
+    pr1: 0.3500241278
+    pr2: 0.1372833191
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135828
+    ctw_id: 1
+    timestamp: 2008-12-29 16:19:00.000000000Z
+    pr0: 0.0
+    pr1: 0.6
+    pr2: 0.0
+    depth: 14
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135829
+    ctw_id: 1
+    timestamp: 2008-12-29 16:20:00.000000000Z
+    pr0: 0.3076923077
+    pr1: 0.6111111111
+    pr2: 0.0967741935
+    depth: 14
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135830
+    ctw_id: 1
+    timestamp: 2008-12-29 16:21:00.000000000Z
+    pr0: 0.3866666667
+    pr1: 0.5342465753
+    pr2: 0.0833333333
+    depth: 14
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135831
+    ctw_id: 1
+    timestamp: 2008-12-29 16:22:00.000000000Z
+    pr0: 0.5128008629
+    pr1: 0.3500596015
+    pr2: 0.1372833191
+    depth: 1
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135832
+    ctw_id: 1
+    timestamp: 2008-12-29 16:23:00.000000000Z
+    pr0: 0.5268817204
+    pr1: 0.4130434783
+    pr2: 0.0531914894
+    depth: 15
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135833
+    ctw_id: 1
+    timestamp: 2008-12-29 16:24:00.000000000Z
+    pr0: 0.4285714286
+    pr1: 0.5322580645
+    pr2: 0.0178571429
+    depth: 17
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135834
+    ctw_id: 1
+    timestamp: 2008-12-29 16:25:00.000000000Z
+    pr0: 0.5138746146
+    pr1: 0.3312790078
+    pr2: 0.1551225453
+    depth: 14
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135835
+    ctw_id: 1
+    timestamp: 2008-12-29 16:26:00.000000000Z
+    pr0: 0.52
+    pr1: 0.4285714286
+    pr2: 0.0227272727
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135836
+    ctw_id: 1
+    timestamp: 2008-12-29 16:27:00.000000000Z
+    pr0: 0.5136804282
+    pr1: 0.3328966085
+    pr2: 0.1534659027
+    depth: 13
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135837
+    ctw_id: 1
+    timestamp: 2008-12-29 16:28:00.000000000Z
+    pr0: 0.4583333333
+    pr1: 0.5142857143
+    pr2: 0.0188679245
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135838
+    ctw_id: 1
+    timestamp: 2008-12-29 16:29:00.000000000Z
+    pr0: 0.5137168307
+    pr1: 0.3328966085
+    pr2: 0.1534659027
+    depth: 13
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135839
+    ctw_id: 1
+    timestamp: 2008-12-29 16:30:00.000000000Z
+    pr0: 0.5137350299
+    pr1: 0.3328966085
+    pr2: 0.1534659027
+    depth: 13
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135840
+    ctw_id: 1
+    timestamp: 2008-12-29 16:31:00.000000000Z
+    pr0: 0.5139992512
+    pr1: 0.3232138401
+    pr2: 0.1629232177
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135841
+    ctw_id: 1
+    timestamp: 2008-12-29 16:32:00.000000000Z
+    pr0: 0.5138270886
+    pr1: 0.3232138401
+    pr2: 0.1629232177
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135842
+    ctw_id: 1
+    timestamp: 2008-12-29 16:33:00.000000000Z
+    pr0: 0.5138473054
+    pr1: 0.3232138401
+    pr2: 0.1629232177
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135843
+    ctw_id: 1
+    timestamp: 2008-12-29 16:34:00.000000000Z
+    pr0: 0.5138675205
+    pr1: 0.3232138401
+    pr2: 0.1629232177
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135844
+    ctw_id: 1
+    timestamp: 2008-12-29 16:35:00.000000000Z
+    pr0: 0.5138675205
+    pr1: 0.3232138401
+    pr2: 0.1629106029
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135845
+    ctw_id: 1
+    timestamp: 2008-12-29 16:36:00.000000000Z
+    pr0: 0.5138675205
+    pr1: 0.3232138401
+    pr2: 0.1629454077
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135846
+    ctw_id: 1
+    timestamp: 2008-12-29 16:37:00.000000000Z
+    pr0: 0.5138675205
+    pr1: 0.3232138401
+    pr2: 0.1629802095
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135847
+    ctw_id: 1
+    timestamp: 2008-12-29 16:38:00.000000000Z
+    pr0: 0.5138675205
+    pr1: 0.3232138401
+    pr2: 0.1630150085
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135848
+    ctw_id: 1
+    timestamp: 2008-12-29 16:39:00.000000000Z
+    pr0: 0.5138022782
+    pr1: 0.3232138401
+    pr2: 0.1630150085
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135849
+    ctw_id: 1
+    timestamp: 2008-12-29 16:40:00.000000000Z
+    pr0: 0.5138224901
+    pr1: 0.3232138401
+    pr2: 0.1630150085
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135850
+    ctw_id: 1
+    timestamp: 2008-12-29 16:41:00.000000000Z
+    pr0: 0.5138427004
+    pr1: 0.3232138401
+    pr2: 0.1630150085
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135851
+    ctw_id: 1
+    timestamp: 2008-12-29 16:42:00.000000000Z
+    pr0: 0.5138427004
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135852
+    ctw_id: 1
+    timestamp: 2008-12-29 16:43:00.000000000Z
+    pr0: 0.5138415496
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135853
+    ctw_id: 1
+    timestamp: 2008-12-29 16:44:00.000000000Z
+    pr0: 0.5138617565
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135854
+    ctw_id: 1
+    timestamp: 2008-12-29 16:45:00.000000000Z
+    pr0: 0.5138819618
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135855
+    ctw_id: 1
+    timestamp: 2008-12-29 16:46:00.000000000Z
+    pr0: 0.5139021653
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135856
+    ctw_id: 1
+    timestamp: 2008-12-29 16:47:00.000000000Z
+    pr0: 0.5139223672
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135857
+    ctw_id: 1
+    timestamp: 2008-12-29 16:48:00.000000000Z
+    pr0: 0.5139425674
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135858
+    ctw_id: 1
+    timestamp: 2008-12-29 16:49:00.000000000Z
+    pr0: 0.513962766
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135859
+    ctw_id: 1
+    timestamp: 2008-12-29 16:50:00.000000000Z
+    pr0: 0.5139829628
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135860
+    ctw_id: 1
+    timestamp: 2008-12-29 16:51:00.000000000Z
+    pr0: 0.514003158
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135861
+    ctw_id: 1
+    timestamp: 2008-12-29 16:52:00.000000000Z
+    pr0: 0.5140233515
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135862
+    ctw_id: 1
+    timestamp: 2008-12-29 16:53:00.000000000Z
+    pr0: 0.5140435433
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135863
+    ctw_id: 1
+    timestamp: 2008-12-29 16:54:00.000000000Z
+    pr0: 0.5140637334
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135864
+    ctw_id: 1
+    timestamp: 2008-12-29 16:55:00.000000000Z
+    pr0: 0.5140839219
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135865
+    ctw_id: 1
+    timestamp: 2008-12-29 16:56:00.000000000Z
+    pr0: 0.5141041087
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135866
+    ctw_id: 1
+    timestamp: 2008-12-29 16:57:00.000000000Z
+    pr0: 0.5141242938
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135867
+    ctw_id: 1
+    timestamp: 2008-12-29 16:58:00.000000000Z
+    pr0: 0.5141444772
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135868
+    ctw_id: 1
+    timestamp: 2008-12-29 16:59:00.000000000Z
+    pr0: 0.514164659
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135869
+    ctw_id: 1
+    timestamp: 2008-12-29 17:00:00.000000000Z
+    pr0: 0.514184839
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135870
+    ctw_id: 1
+    timestamp: 2008-12-29 17:01:00.000000000Z
+    pr0: 0.5142050174
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135871
+    ctw_id: 1
+    timestamp: 2008-12-29 17:02:00.000000000Z
+    pr0: 0.5142251942
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135872
+    ctw_id: 1
+    timestamp: 2008-12-29 17:03:00.000000000Z
+    pr0: 0.5142453692
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135873
+    ctw_id: 1
+    timestamp: 2008-12-29 17:04:00.000000000Z
+    pr0: 0.5142655426
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135874
+    ctw_id: 1
+    timestamp: 2008-12-29 17:05:00.000000000Z
+    pr0: 0.5142857143
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135875
+    ctw_id: 1
+    timestamp: 2008-12-29 17:06:00.000000000Z
+    pr0: 0.5143058843
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135876
+    ctw_id: 1
+    timestamp: 2008-12-29 17:07:00.000000000Z
+    pr0: 0.5143260527
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135877
+    ctw_id: 1
+    timestamp: 2008-12-29 17:08:00.000000000Z
+    pr0: 0.5143462193
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135878
+    ctw_id: 1
+    timestamp: 2008-12-29 17:09:00.000000000Z
+    pr0: 0.5143663843
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135879
+    ctw_id: 1
+    timestamp: 2008-12-29 17:10:00.000000000Z
+    pr0: 0.5143865476
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135880
+    ctw_id: 1
+    timestamp: 2008-12-29 17:11:00.000000000Z
+    pr0: 0.5144067093
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135881
+    ctw_id: 1
+    timestamp: 2008-12-29 17:12:00.000000000Z
+    pr0: 0.5144268693
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135882
+    ctw_id: 1
+    timestamp: 2008-12-29 17:13:00.000000000Z
+    pr0: 0.5144470276
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135883
+    ctw_id: 1
+    timestamp: 2008-12-29 17:14:00.000000000Z
+    pr0: 0.5144671842
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135884
+    ctw_id: 1
+    timestamp: 2008-12-29 17:15:00.000000000Z
+    pr0: 0.5144873391
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135885
+    ctw_id: 1
+    timestamp: 2008-12-29 17:16:00.000000000Z
+    pr0: 0.5145074924
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135886
+    ctw_id: 1
+    timestamp: 2008-12-29 17:17:00.000000000Z
+    pr0: 0.514527644
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135887
+    ctw_id: 1
+    timestamp: 2008-12-29 17:18:00.000000000Z
+    pr0: 0.514547794
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135888
+    ctw_id: 1
+    timestamp: 2008-12-29 17:19:00.000000000Z
+    pr0: 0.5145679422
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135889
+    ctw_id: 1
+    timestamp: 2008-12-29 17:20:00.000000000Z
+    pr0: 0.5145880888
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135890
+    ctw_id: 1
+    timestamp: 2008-12-29 17:21:00.000000000Z
+    pr0: 0.5146082337
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135891
+    ctw_id: 1
+    timestamp: 2008-12-29 17:22:00.000000000Z
+    pr0: 0.514628377
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135892
+    ctw_id: 1
+    timestamp: 2008-12-29 17:23:00.000000000Z
+    pr0: 0.5146485185
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135893
+    ctw_id: 1
+    timestamp: 2008-12-29 17:24:00.000000000Z
+    pr0: 0.5146686585
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135894
+    ctw_id: 1
+    timestamp: 2008-12-29 17:25:00.000000000Z
+    pr0: 0.5146887967
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135895
+    ctw_id: 1
+    timestamp: 2008-12-29 17:26:00.000000000Z
+    pr0: 0.5147089332
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135896
+    ctw_id: 1
+    timestamp: 2008-12-29 17:27:00.000000000Z
+    pr0: 0.5147290681
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135897
+    ctw_id: 1
+    timestamp: 2008-12-29 17:28:00.000000000Z
+    pr0: 0.5147492013
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
+- !ruby/object:CtwCollector
+  attributes:
+    id: 135898
+    ctw_id: 1
+    timestamp: 2008-12-29 17:29:00.000000000Z
+    pr0: 0.5147693329
+    pr1: 0.3232138401
+    pr2: 0.1630294717
+    depth: 20
