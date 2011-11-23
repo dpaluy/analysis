@@ -6,15 +6,16 @@
     %th Description
     %th
     %th
-    %th
 
   - @ctws.each do |ctw|
     %tr
       %td= ctw.name
       %td= ctw.description
-      %td= link_to 'Show', ctw
-      %td= link_to 'Edit', edit_ctw_path(ctw)
-      %td= link_to 'Destroy', ctw, :confirm => 'Are you sure?', :method => :delete
+      %td= link_to 'Show', ctw_ctw_collectors_path(ctw)
+      %td
+        = link_to 'Edit', edit_ctw_path(ctw)
+        |
+        = link_to 'Destroy', ctw, :confirm => 'Are you sure?', :method => :delete
 
 %br
 

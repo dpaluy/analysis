@@ -5,9 +5,11 @@
 %p
   %h3 
     Total: 
-    = Action.total_cost(@analyzer.id)
+    = number_with_delimiter(@analyzer.total)
 
 %br
+
+%p= paginate @actions
 
 %table
   %tr
@@ -21,5 +23,4 @@
       %td= action.amount
       %td= action.timestamp
 
-%br
 %p= paginate @actions

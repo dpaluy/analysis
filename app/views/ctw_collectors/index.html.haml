@@ -1,8 +1,10 @@
-%h1 Listing Collectors
+%h1= @ctw.name
+
+%br
+%p= paginate @ctw_collectors
 
 %table
   %tr
-    %th Ctw
     %th Timestamp
     %th Pr0
     %th Pr1
@@ -11,13 +13,11 @@
 
   - @ctw_collectors.each do |ctw_collector|
     %tr
-      %td= ctw_collector.ctw_id
       %td= ctw_collector.timestamp
       %td= ctw_collector.pr0
       %td= ctw_collector.pr1
       %td= ctw_collector.pr2
       %td= ctw_collector.depth
- 
-%br
+
 %p= paginate @ctw_collectors
 

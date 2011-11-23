@@ -2,7 +2,8 @@ class CtwCollectorsController < ApplicationController
   # GET /ctw_collectors
   # GET /ctw_collectors.json
   def index
-    @ctw_collectors = CtwCollector.order(:timestamp).page params[:page]
+    @ctw = Ctw.find(params[:ctw_id])
+    @ctw_collectors = @ctw.ctw_collectors.order(:timestamp).page params[:page]
 
     respond_to do |format|
       format.html # index.html.erb
