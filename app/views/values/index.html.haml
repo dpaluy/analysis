@@ -2,11 +2,31 @@
   =@quote.name
   Values
 
-%p
-  = link_to 'New Value', new_quote_value_path(@quote)
-  |
-  \#{link_to "View Quotes", quotes_path}
-  
+%script(type="text/javascript")  
+  $(function () {
+  window.chart = new Highcharts.StockChart({
+  chart: { renderTo: 'chart' },
+  rangeSelector : {
+  selected : 6
+  },
+  title : {
+  text : "SIE"
+  },
+  xAxis : {
+  type: 'datetime'
+  \// maxZoom : 14 * 24 * 3600000 // fourteen days
+  },
+  series: [{
+  pointInterval: 60000,
+  data: #{@values.map {|v| [v.timestamp.to_i * 1000, v.value.to_f] }}
+  }]
+  });
+  });
+#chart
+
+%br
+%p= paginate @values  
+%br
 %table
   %tr
     %th Value

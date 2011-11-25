@@ -9,7 +9,32 @@
 
 %br
 
+%script(type="text/javascript")  
+  $(function () {
+  window.chart = new Highcharts.StockChart({
+  chart: { renderTo: 'chart' },
+  rangeSelector : {
+  selected : 6
+  },
+  title : {
+  text : "SIE"
+  },
+  xAxis : {
+  type: 'datetime'
+  \// maxZoom : 14 * 24 * 3600000 // fourteen days
+  },
+  series: [{
+  pointInterval: 60000,
+  data: #{@actions.map {|a| [a.timestamp.to_i * 1000, a.cost.abs.to_f] }},
+  name: "Price"
+  }]
+  });
+  });
+#chart
+
+%br
 %p= paginate @actions
+%br
 
 %table
   %tr

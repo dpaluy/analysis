@@ -5,6 +5,7 @@
 
 %table
   %tr
+    %th ID
     %th Timestamp
     %th Pr0
     %th Pr1
@@ -13,6 +14,7 @@
 
   - @ctw_collectors.each do |ctw_collector|
     %tr
+      %td= ctw_collector.id
       %td= ctw_collector.timestamp
       %td= ctw_collector.pr0
       %td= ctw_collector.pr1
