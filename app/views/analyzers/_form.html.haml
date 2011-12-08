@@ -1,4 +1,4 @@
-= form_for @analyzer do |f|
+= simple_form_for @analyzer do |f|
   -if @analyzer.errors.any?
     #error_explanation
       %h2= "#{pluralize(@analyzer.errors.count, "error")} prohibited this analyzer from being saved:"
@@ -6,20 +6,11 @@
         - @analyzer.errors.full_messages.each do |msg|
           %li= msg
 
-  .field
-    = f.label :name
-    = f.text_field :name
-  .field
-    = f.label :start_date
-    = f.date_select :start_date
-  .field
-    = f.label :end_date
-    = f.date_select :end_date
-  .field
-    = f.label :quote_id
-    = f.number_field :quote_id
-  .field
-    = f.label :ctw_id
-    = f.number_field :ctw_id    
-  .actions
-    = f.submit 'Save'
+  = f.input :name, :required => true
+  = f.input :all_actions, :label_html => { :class => 'inline' }
+  %br
+  = f.association :ctw, :required => true, :include_blank => false
+  = f.input :start_date, :as => :date, :required => true, :start_year => 2005, :end_year => Date.today.year, :input_html => { :class => 'inline' }
+  = f.input :end_date, :as => :date, :required => true, :start_year => 2005, :end_year => Date.today.year, :input_html => { :class => 'inline' }
+  %br
+  = f.submit 'Save'

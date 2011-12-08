@@ -2,7 +2,7 @@ class AnalyzersController < ApplicationController
   # GET /analyzers
   # GET /analyzers.json
   def index
-    @analyzers = Analyzer.order(:quote_id).page params[:page]
+    @analyzers = Analyzer.order(:ctw_id, :name).page params[:page]
 
     respond_to do |format|
       format.html # index.html.erb

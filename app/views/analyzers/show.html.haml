@@ -1,4 +1,5 @@
-%p#notice= notice
+/%p#notice= notice
+- ctw = Ctw.find(@analyzer.ctw_id)
 
 %p
   %b Name:
@@ -11,10 +12,10 @@
   = @analyzer.end_date
 %p
   %b Quote:
-  = @analyzer.quote_id
+  = Quote.find(ctw.quote_id).name
 %p
   %b CTW:
-  = @analyzer.ctw_id
+  = ctw.name
   
 = link_to 'Edit', edit_analyzer_path(@analyzer)
 \|

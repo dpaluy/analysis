@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111115112247) do
+ActiveRecord::Schema.define(:version => 20111208111421) do
 
   create_table "actions", :force => true do |t|
     t.integer  "analyzer_id",                                               :null => false
@@ -21,13 +21,13 @@ ActiveRecord::Schema.define(:version => 20111115112247) do
   end
 
   create_table "analyzers", :force => true do |t|
-    t.string   "name",       :null => false
-    t.date     "start_date", :null => false
-    t.date     "end_date",   :null => false
-    t.integer  "quote_id",   :null => false
-    t.integer  "ctw_id",     :null => false
+    t.string   "name",        :null => false
+    t.date     "start_date",  :null => false
+    t.date     "end_date",    :null => false
+    t.integer  "ctw_id",      :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "all_actions"
   end
 
   create_table "ctw_collectors", :force => true do |t|
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(:version => 20111115112247) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "quote_id"
   end
 
   create_table "quotes", :force => true do |t|

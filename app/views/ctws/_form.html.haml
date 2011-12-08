@@ -1,16 +1,11 @@
-= form_for @ctw do |f|
+= simple_form_for @ctw do |f|
   -if @ctw.errors.any?
     #error_explanation
       %h2= "#{pluralize(@ctw.errors.count, "error")} prohibited this ctw from being saved:"
       %ul
         - @ctw.errors.full_messages.each do |msg|
           %li= msg
-
-  .field
-    = f.label :name
-    = f.text_field :name
-  .field
-    = f.label :description
-    = f.text_area :description
-  .actions
-    = f.submit 'Save'
+  = f.input :name, :required => true
+  = f.input :description, :as =>  :text
+  = f.association :quote, :required => true, :include_blank => false 
+  = f.submit 'Save'

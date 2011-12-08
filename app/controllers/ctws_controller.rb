@@ -2,7 +2,7 @@ class CtwsController < ApplicationController
   # GET /ctws
   # GET /ctws.json
   def index
-    @ctws = Ctw.all
+    @ctws = Ctw.page params[:page]
 
     respond_to do |format|
       format.html # index.html.erb

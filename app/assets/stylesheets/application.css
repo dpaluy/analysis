@@ -34,3 +34,10 @@ header nav ul li {
 .left { 
   text-align: left;
 }
+
+#chart {
+  width: 90%;
+  height: 500px;
+  margin-left: auto ;
+  margin-right: auto ;
+}

@@ -16,9 +16,21 @@
     %tr
       %td= ctw_collector.id
       %td= ctw_collector.timestamp
-      %td= ctw_collector.pr0
-      %td= ctw_collector.pr1
-      %td= ctw_collector.pr2
+      %td
+        - if ctw_collector.get_index_of_max == 0
+          %b= ctw_collector.pr0
+        - else
+          = ctw_collector.pr0
+      %td
+        - if ctw_collector.get_index_of_max == 1
+          %b= ctw_collector.pr1
+        - else
+          = ctw_collector.pr1
+      %td
+        - if ctw_collector.get_index_of_max == 2
+          %b= ctw_collector.pr2
+        - else
+          = ctw_collector.pr2
       %td= ctw_collector.depth
 
 %p= paginate @ctw_collectors

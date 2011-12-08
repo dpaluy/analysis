@@ -10,3 +10,82 @@
 = link_to 'Edit', edit_ctw_path(@ctw)
 \|
 = link_to 'Back', ctws_path
+
+-unless @ctw.ctw_collectors.empty?
+  - limit = 75000
+  - start_date = @ctw.ctw_collectors.first.timestamp
+  - end_date = @ctw.ctw_collectors.limit(limit).last.timestamp
+  %script(type="text/javascript")  
+    $(function () {
+    window.chart = new Highcharts.StockChart({
+    chart: { renderTo: 'chart', zoomType: 'x', type: 'spline' },
+    loading: { style: { backgroundColor: 'silver' }, labelStyle: {color: 'white'}, showDuration: 1 },
+    rangeSelector : {
+    buttons: [{
+    type: 'minute',
+    count: 1,
+    text: '1m'
+    }, {
+    type: 'minute',
+    count: 10,
+    text: '10m'
+    }, {
+    type: 'hour',
+    count: 1,
+    text: '1h'
+    }, {
+    type: 'day',
+    count: 1,
+    text: '1d'
+    }, {
+    type: 'month',
+    count: 1,
+    text: '1M'
+    }, {
+    type: 'all',
+    text: 'All'
+    }],
+    selected : 5
+    },
+    xAxis : {
+    type: 'datetime',
+    maxZoom : 3600000,
+    startOnTick: true,
+    endOnTick: true,
+    },
+    yAxis: [{
+    title: { text: 'Price'},
+    height: 200,
+    lineWidth: 2
+    },
+    { title: { text: 'Action' },
+    top: 300,
+    height: 100,
+    offset: 0,
+    lineWidth: 2
+    }],		    
+    series: [
+    {
+    name: "Price",
+    pointInterval: 60000,
+    data: #{stock_prices(@ctw.quote_id, start_date, end_date)},
+    dataGrouping: { units : [['minute', [1, 2, 3, 4, 5, 10, 30, 60]], ['week', [1]], ['month', [1, 2, 3, 4, 6]]] }
+    },
+    {
+    type: 'column',
+    name: "BUY",
+    pointInterval: 60000,
+    data: #{@ctw.ctw_collectors.where("pr1 > pr0 AND pr1 > pr2 AND timestamp >= ? AND timestamp <= ?", start_date, end_date).map {|v| [v.timestamp.to_i * 1000, 1] }},
+    yAxis: 1
+    },
+    {
+    type: 'column',
+    name: "SELL",
+    pointInterval: 60000,
+    data: #{@ctw.ctw_collectors.where("pr2 > pr0 AND pr2 > pr1 AND timestamp >= ? AND timestamp <= ?", start_date, end_date).map {|v| [v.timestamp.to_i * 1000, -1] }},
+    yAxis: 1
+    }
+    ]
+    });
+    });
+  #chart
