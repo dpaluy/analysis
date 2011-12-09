@@ -1,4 +1,7 @@
 class AnalyzersController < ApplicationController
+
+  after_filter :fill_actions, :only => [:create, :update]
+  
   # GET /analyzers
   # GET /analyzers.json
   def index
@@ -80,4 +83,12 @@ class AnalyzersController < ApplicationController
       format.json { head :ok }
     end
   end
+  
+private
+
+  def fill_actions
+    Delayed::Job.enqueue(AnalyzerJob.new(@analyzer.id))
+    flash[:notice] = "Analysis of #{@analyzer.name} in progress..."
+  end
+  
 end

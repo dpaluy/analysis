@@ -3,10 +3,12 @@
 %p
   = link_to 'New Analyzer', new_analyzer_path
 
+%p= paginate @analyzers
+
 %table
   %tr
-    %th CTW
     %th Name
+    %th CTW    
     %th Start date
     %th End date
     %th Total
@@ -18,16 +20,17 @@
   - @analyzers.each do |analyzer|
     - ctw = Ctw.find(analyzer.ctw_id)
     %tr
-      %td= link_to "#{ctw.name}", ctw_path(ctw)
       %td= analyzer.name
+      %td= link_to "#{ctw.name}", ctw_path(ctw)
       %td= analyzer.start_date
       %td= analyzer.end_date
-      %td
-        %b
-          = number_with_delimiter(analyzer.total)
-      %td= Value.where(['quote_id = ? and timestamp >= ?', ctw.quote_id, analyzer.actions.first.timestamp]).order("timestamp ASC").first.value
-      %td= Value.where(['quote_id = ? and timestamp >= ?', ctw.quote_id, analyzer.actions.last.timestamp]).order("timestamp ASC").first.value
-      %td= link_to 'Show', analyzer_actions_path(analyzer)
+      - unless analyzer.actions.empty?
+        %td
+          %b
+            = number_with_delimiter(analyzer.total)
+        %td= Value.where(['quote_id = ? and timestamp >= ?', ctw.quote_id, analyzer.actions.first.timestamp]).order("timestamp ASC").first.value
+        %td= Value.where(['quote_id = ? and timestamp >= ?', ctw.quote_id, analyzer.actions.last.timestamp]).order("timestamp ASC").first.value
+        %td= link_to 'Show', analyzer_actions_path(analyzer)
       %td
         = link_to 'Edit', edit_analyzer_path(analyzer)
         |

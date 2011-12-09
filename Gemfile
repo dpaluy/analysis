@@ -17,6 +17,7 @@ gem "haml", ">= 3.1.2"
 
 gem 'unicorn', :group => :production
 gem "simple_form"
+gem 'delayed_job'
 
 group :assets do
   gem 'sass-rails'
