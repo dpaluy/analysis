@@ -4,6 +4,8 @@ class Analyzer < ActiveRecord::Base
   
   belongs_to :ctw
   
+  validates :name, :presence => true, :uniqueness => true
+  
   paginates_per 15
   
   validates :start_date, :date => { :before => Time.now }

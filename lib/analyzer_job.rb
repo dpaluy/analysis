@@ -7,7 +7,8 @@ class AnalyzerJob < Struct.new(:analyzer_id)
 
   def perform
     analyzer = Analyzer.find(analyzer_id)
-    Action.delete_all(['analyzer_id = ?', analyzer.id])
+    Action.where(['analyzer_id = ?', analyzer.id]).delete_all
+    
     collection = CtwCollector.where("ctw_id = ? and timestamp >= ? and timestamp <= ?",     
                       analyzer.ctw_id,  
                       analyzer.start_date, analyzer.end_date).order("timestamp ASC")
@@ -20,11 +21,21 @@ class AnalyzerJob < Struct.new(:analyzer_id)
         cost = get_price(quote_id, col.timestamp) 
         
         if action_index == 1 # BUY
-          qty = prev_account.stock_amount + 1
-          cash = prev_account.cash - (cost * 1)
+          if analyzer.all_actions && prev_account.stock_amount < 0
+            action_qty = prev_account.stock_amount.abs
+          else
+            action_qty = 1
+          end
+          qty = prev_account.stock_amount + action_qty
+          cash = prev_account.cash - (cost * action_qty)
         elsif action_index == 2 # SELL
-          qty = prev_account.stock_amount - 1
-          cash = prev_account.cash + (cost * 1)         
+          if analyzer.all_actions && prev_account.stock_amount > 0
+            action_qty = prev_account.stock_amount
+          else
+            action_qty = 1
+          end
+          qty = prev_account.stock_amount - action_qty
+          cash = prev_account.cash + (cost * action_qty)         
         end
         ac = Account.new(:stock_amount => qty, :cash => cash, 
               :total_stock_value => qty * cost, 
