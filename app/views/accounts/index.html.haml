@@ -1,17 +1,20 @@
-- title "Accounts"
+- title "Summary: #{@analyzer.name}"
+
+%p= paginate @accounts
 
 %table
   %tr.header
-    %th Stock amount
+    %th Profit
+    %th Stock Qty
     %th Cash
     %th Total stock value
-    %th Analyzer
     %th Timestamp
   - for account in @accounts
     %tr{:class => cycle('odd', 'even')} 
-      %td= account.stock_amount
-      %td= account.cash
-      %td= account.total_stock_value
-      %td= account.analyzer_id
+      %td= number_with_delimiter(account.cash + account.total_stock_value)
+      %td= number_with_delimiter(account.stock_amount)
+      %td= number_with_delimiter(account.cash)
+      %td= number_with_delimiter(account.total_stock_value)
       %td= account.timestamp
 
+%p= paginate @accounts

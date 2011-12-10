@@ -1,9 +1,8 @@
 Analysis::Application.routes.draw do
 
-  resources :accounts
-
   resources :analyzers, :shallow => true do
     resources :actions
+    resources :accounts, :only => [:index]
   end
   
   resources :ctws, :shallow => true do

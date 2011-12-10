@@ -1,4 +1,4 @@
-%h1 Listing Analyzers
+- title "Listing Analyzers"
 
 %p
   = link_to 'New Analyzer', new_analyzer_path
@@ -8,6 +8,7 @@
 %table
   %tr.header
     %th Name
+    %th All Actions
     %th CTW    
     %th Start date
     %th End date
@@ -15,22 +16,20 @@
     %th Price @Start
     %th Price @End
     %th
-    %th
 
   - @analyzers.each do |analyzer|
     - ctw = Ctw.find(analyzer.ctw_id)
     %tr{:class => cycle('odd', 'even')}
-      %td= analyzer.name
+      %td= link_to "#{analyzer.name}", analyzer_accounts_path(analyzer)
+      %td= analyzer.all_actions
       %td= link_to "#{ctw.name}", ctw_path(ctw)
       %td= analyzer.start_date
       %td= analyzer.end_date
-      - unless analyzer.actions.empty?
-        %td
-          %b
-            = number_with_delimiter(analyzer.total)
-        %td= Value.where(['quote_id = ? and timestamp >= ?', ctw.quote_id, analyzer.actions.first.timestamp]).order("timestamp ASC").first.value
-        %td= Value.where(['quote_id = ? and timestamp >= ?', ctw.quote_id, analyzer.actions.last.timestamp]).order("timestamp ASC").first.value
-        %td= link_to 'Show', analyzer_actions_path(analyzer)
+      %td
+        %b
+          = number_with_delimiter(analyzer.total)
+      %td= Value.where(['quote_id = ? and timestamp >= ?', ctw.quote_id, analyzer.start_date]).order("timestamp ASC").first.value
+      %td= Value.where(['quote_id = ? and timestamp <= ?', ctw.quote_id, analyzer.end_date]).order("timestamp DESC").first.value
       %td
         = link_to 'Edit', edit_analyzer_path(analyzer)
         |

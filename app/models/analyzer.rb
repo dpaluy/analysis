@@ -1,5 +1,6 @@
 class Analyzer < ActiveRecord::Base
   has_many :actions, :dependent => :destroy
+  has_many :accounts, :dependent => :destroy
   
   belongs_to :ctw
   
@@ -10,11 +11,13 @@ class Analyzer < ActiveRecord::Base
   validates :end_date,
     :date => { :after => :start_date, :before => Time.now + 1.day } 
 
-#  after_save :fill_actions
-  
   def total
-    last_asset = self.actions.order("timestamp ASC").last
-    self.actions.sum(:cost) + (last_asset.amount * last_asset.cost.abs)
+    last_account = self.accounts.order("timestamp ASC").last
+    if (last_account.nil?)
+      0
+    else
+      last_account.cash + last_account.total_stock_value
+    end
   end
   
 end

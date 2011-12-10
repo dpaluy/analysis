@@ -1,11 +1,10 @@
-%h1 Listing Quotes
+-title "Listing Quotes"
 
 %table
   %tr.header
     %th Name
     %th Description
-    %th
-    %th
+    %th Values
     %th
 
   - @quotes.each do |quote|
@@ -13,7 +12,6 @@
       %td= quote.name
       %td= quote.description
       %td= link_to pluralize(quote.values.size, 'record'), quote_values_path(quote)
-      %td= link_to 'Show', quote
       %td
         = link_to 'Edit', edit_quote_path(quote)
         |
