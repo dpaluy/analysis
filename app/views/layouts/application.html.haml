@@ -1,21 +1,25 @@
 !!!
 %html
+
   %head
-    %title Analysis
-    %meta{:charset => "utf-8"}
-    %meta{"http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1"}
-    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
+    %title
+      = yield(:title) || "Untitled"
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
     = stylesheet_link_tag :application
     = javascript_include_tag :application
-    = csrf_meta_tags
-  %body{:class => params[:controller]}
-    #container.container
+    = csrf_meta_tag
+    = yield(:head)
+
+  %body
+    #container
       %header
         %nav
           %ul.hmenu
             = render 'shared/navigation'
-        - flash.each do |name, msg|
-          = content_tag :div, msg, :id => "flash_\#{name}" if msg.is_a?(String)
-      #main{:role => "main"}
-        = yield
-      %footer
+      - flash.each do |name, msg|
+        = content_tag :div, msg, :id => "flash_#{name}"
+
+      - if show_title?
+        %h1= yield(:title)
+
+      = yield

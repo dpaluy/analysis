@@ -1,7 +1,7 @@
 %h1 Listing Quotes
 
 %table
-  %tr
+  %tr.header
     %th Name
     %th Description
     %th
@@ -9,7 +9,7 @@
     %th
 
   - @quotes.each do |quote|
-    %tr
+    %tr{:class => cycle('odd', 'even')} 
       %td= quote.name
       %td= quote.description
       %td= link_to pluralize(quote.values.size, 'record'), quote_values_path(quote)

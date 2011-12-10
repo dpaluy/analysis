@@ -26,8 +26,10 @@ group :assets do
 end
 
 gem "rspec-rails", ">= 2.8.0.rc1", :group => [:development, :test]
+gem 'mocha', :group => [:development, :test]
 
 group :development do
+  gem 'nifty-generators'
   gem "haml-rails", ">= 0.3.4"
   gem "guard", ">= 0.6.2"
   case HOST_OS
@@ -52,5 +54,3 @@ group :test do
   gem "database_cleaner", ">= 0.6.7"
   gem "launchy", ">= 2.0.5"
 end
-
-gem "zurb-foundation"

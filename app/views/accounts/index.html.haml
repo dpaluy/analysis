@@ -1,0 +1,17 @@
+- title "Accounts"
+
+%table
+  %tr.header
+    %th Stock amount
+    %th Cash
+    %th Total stock value
+    %th Analyzer
+    %th Timestamp
+  - for account in @accounts
+    %tr{:class => cycle('odd', 'even')} 
+      %td= account.stock_amount
+      %td= account.cash
+      %td= account.total_stock_value
+      %td= account.analyzer_id
+      %td= account.timestamp
+

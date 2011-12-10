@@ -1,0 +1,13 @@
+one:
+  stock_amount: 1
+  cash: 9.99
+  total_stock_value: 9.99
+  analyzer_id: 1
+  timestamp: 2011-12-10 15:29:43
+
+two:
+  stock_amount: 1
+  cash: 9.99
+  total_stock_value: 9.99
+  analyzer_id: 1
+  timestamp: 2011-12-10 15:29:43

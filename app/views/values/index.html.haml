@@ -28,7 +28,7 @@
 %p= paginate @values  
 %br
 %table
-  %tr
+  %tr.header
     %th Value
     %th Volume
     %th Timestamp
@@ -37,7 +37,7 @@
     %th
 
   - @values.each do |value|
-    %tr
+    %tr{:class => cycle('odd', 'even')} 
       %td= value.value
       %td= value.volume
       %td= value.timestamp

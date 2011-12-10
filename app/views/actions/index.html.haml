@@ -37,13 +37,13 @@
 %br
 
 %table
-  %tr
+  %tr.header
     %th Cost
     %th Amount
     %th Timestamp
 
   - @actions.each do |action|
-    %tr
+    %tr{:class => cycle('odd', 'even')} 
       %td= action.cost
       %td= action.amount
       %td= action.timestamp

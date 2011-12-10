@@ -4,7 +4,7 @@
 %p= paginate @ctw_collectors
 
 %table
-  %tr
+  %tr.header
     %th ID
     %th Timestamp
     %th Pr0
@@ -13,7 +13,7 @@
     %th Depth
 
   - @ctw_collectors.each do |ctw_collector|
-    %tr
+    %tr{:class => cycle('odd', 'even')}
       %td= ctw_collector.id
       %td= ctw_collector.timestamp
       %td

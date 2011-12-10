@@ -4,7 +4,7 @@
 %p= paginate @ctws
 
 %table
-  %tr
+  %tr.header
     %th Name
     %th Description
     %th
@@ -12,7 +12,7 @@
     %th
 
   - @ctws.each do |ctw|
-    %tr
+    %tr{:class => cycle('odd', 'even')} 
       %td= ctw.name
       %td= ctw.description
       %td= link_to 'Show', ctw_path(ctw)
