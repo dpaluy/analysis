@@ -1,4 +1,5 @@
 Analysis::Application.routes.draw do
+
   resources :analyzers, :shallow => true do
     resources :actions
   end
