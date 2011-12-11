@@ -29,6 +29,7 @@ gem "rspec-rails", ">= 2.8.0.rc1", :group => [:development, :test]
 gem 'mocha', :group => [:development, :test]
 
 group :development do
+  gem 'ruby-debug19'
   gem 'nifty-generators'
   gem "haml-rails", ">= 0.3.4"
   gem "guard", ">= 0.6.2"

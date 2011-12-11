@@ -1,6 +1,6 @@
 - title "Summary: #{@analyzer.name}"
 
-%p= paginate @accounts
+%p= paginate_date(@analyzer, @date)
 
 %table
   %tr.header
@@ -17,4 +17,4 @@
       %td= number_with_delimiter(account.total_stock_value)
       %td= account.timestamp
 
-%p= paginate @accounts
+%p= paginate_date(@analyzer, @date)
