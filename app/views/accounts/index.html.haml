@@ -4,20 +4,26 @@
   %tr.header
     %th Daily Profit
     %th Profit till #{@date.to_s}
+    %th End of Day, Qty of Stocks
   %tr.center
-    %td= @accounts.last.profit - @accounts.first.profit
-    %td= @accounts.last.profit
-    
+    %td= number_with_delimiter(@accounts.last.profit - @accounts.first.profit)
+    %td= number_with_delimiter(@accounts.last.profit)
+    %td= @accounts.last.stock_amount
 %p
   = paginate_date(@analyzer, @date)
   = form_tag analyzer_accounts_path(@analyzer), :method => :get do
     = text_field_tag "date"
     = submit_tag "Go"
 
+- start_date = @accounts.first.timestamp
+- end_date = @accounts.last.timestamp
+- ctw = Ctw.find(@analyzer.ctw_id)
+- quote = Quote.find(ctw.quote_id)
 %script(type="text/javascript")  
   $(function () {
   window.chart = new Highcharts.StockChart({
   chart: { renderTo: 'chart' },
+  title: { text: 'Profit'},
   rangeSelector : {
   buttons : [{
   type : 'minute',
@@ -48,6 +54,11 @@
   tickPixelInterval: 150,
   maxZoom: 60 * 1000
   },
+  yAxis : {
+  title: { text: 'Profit'},
+  height: 200,
+  lineWidth: 2
+  },
   series: [{
   pointInterval: 60000,
   data: #{@accounts.map {|a| [a.timestamp.to_i * 1000, a.profit.to_f] }},
@@ -55,7 +66,79 @@
   }]
   });
   });
+  
+  // Values
+  $(function () {
+  window.chart = new Highcharts.StockChart({
+  chart: { renderTo: 'chart_quotes' },
+  title: { text: 'Prices & Actions'},
+  rangeSelector : {
+  buttons : [{
+  type : 'minute',
+  count : 10,
+  text : '10m'
+  }, {
+  type : 'minute',
+  count : 30,
+  text : '30m'
+  }, {
+  type : 'hour',
+  count : 1,
+  text : '1h'
+  }, {
+  type : 'hour',
+  count : 3,
+  text : '3h'
+  }, {
+  type : 'all',
+  count : 1,
+  text : 'All'
+  }],
+  selected : 4,
+  inputEnabled : false
+  },
+  xAxis : {
+  type: 'datetime',
+  tickPixelInterval: 150,
+  maxZoom: 60 * 1000
+  },
+  yAxis : [{
+  title: { text: 'Price'},
+  height: 200,
+  lineWidth: 2
+  },{
+  title: { text: 'Action' },
+  top: 300,
+  height: 100,
+  offset: 0,
+  lineWidth: 2
+  }],
+  series: [{
+  pointInterval: 60000,
+  data: #{quote.values.where('timestamp >= ? AND timestamp <= ?', start_date, end_date).map {|a| [a.timestamp.to_i * 1000, a.value.to_f] }},
+  name: "Profit"
+  },
+  {
+  type: 'column',
+  name: "BUY",
+  pointInterval: 60000,
+  data: #{ctw.ctw_collectors.where("pr1 > pr0 AND pr1 > pr2 AND timestamp >= ? AND timestamp <= ?", start_date, end_date).map {|v| [v.timestamp.to_i * 1000, 1] }},
+  yAxis: 1
+  },
+  {
+  type: 'column',
+  name: "SELL",
+  pointInterval: 60000,
+  data: #{ctw.ctw_collectors.where("pr2 > pr0 AND pr2 > pr1 AND timestamp >= ? AND timestamp <= ?", start_date, end_date).map {|v| [v.timestamp.to_i * 1000, -1] }},
+  yAxis: 1
+  }
+  ]
+  });
+  });
+
 #chart
+%br
+#chart_quotes.chart
 
 %p= link_to "Back to Summary", analyzer_path(@analyzer)
 %br

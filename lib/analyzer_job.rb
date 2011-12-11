@@ -45,5 +45,5 @@ class AnalyzerJob < Struct.new(:analyzer_id)
       end
     end
   end
-SS
+
 end

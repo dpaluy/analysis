@@ -23,6 +23,7 @@ class Analyzer < ActiveRecord::Base
   end
   
   def trading_days
-    self.accounts.group("DATE(timestamp)").count.size
+    self.accounts.group("DATE(timestamp)").count
   end
+  
 end
