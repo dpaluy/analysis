@@ -84,8 +84,14 @@ header nav ul li {
   text-align: left;
 }
 
+.small {
+  width: 25%;
+  td { border: thin solid black; }
+}
+  
 table {
   width: 100%;
+
   .header {
     background-color: blue;
     color: white;

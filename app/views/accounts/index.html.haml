@@ -1,6 +1,15 @@
 - title "Summary: #{@analyzer.name}"
 
+%table.small
+  %tr.header
+    %th Daily Profit
+    %th Profit till #{@date.to_s}
+  %tr.center
+    %td= @accounts.last.profit - @accounts.first.profit
+    %td= @accounts.last.profit
+    
 %p= paginate_date(@analyzer, @date)
+%br
 
 %table
   %tr.header
@@ -11,7 +20,7 @@
     %th Timestamp
   - for account in @accounts
     %tr{:class => cycle('odd', 'even')} 
-      %td= number_with_delimiter(account.cash + account.total_stock_value)
+      %td= number_with_delimiter(account.profit)
       %td= number_with_delimiter(account.stock_amount)
       %td= number_with_delimiter(account.cash)
       %td= number_with_delimiter(account.total_stock_value)

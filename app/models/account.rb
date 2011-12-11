@@ -4,4 +4,8 @@ class Account < ActiveRecord::Base
   belongs_to :analyzer
   
   validates :timestamp, :presence => true, :uniqueness => {:scope => :analyzer_id}
+  
+  def profit
+    self.cash + self.total_stock_value
+  end
 end
