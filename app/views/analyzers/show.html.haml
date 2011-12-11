@@ -1,22 +1,70 @@
-/%p#notice= notice
+- title @analyzer.name
 - ctw = Ctw.find(@analyzer.ctw_id)
 
+%script(type="text/javascript")  
+  $(function () {
+  window.chart = new Highcharts.StockChart({
+  chart: { renderTo: 'chart' },
+  rangeSelector : {
+  buttons : [{
+  type : 'day',
+  count : 2,
+  text : '2d'
+  }, {
+  type : 'week',
+  count : 1,
+  text : '1w'
+  }, {
+  type : 'week',
+  count : 2,
+  text : '2w'
+  }, {
+  type : 'month',
+  count : 1,
+  text : '1m'
+  }, {
+  type : 'all',
+  count : 1,
+  text : 'All'
+  }],
+  selected : 4,
+  inputEnabled : false
+  },
+  xAxis : {
+  type: 'datetime',
+  tickPixelInterval: 150,
+  maxZoom: 360 * 1000
+  },
+  series: [{
+  pointInterval: 360000,
+  data: #{@analyzer.accounts.map {|a| [a.timestamp.to_i * 1000, a.profit.to_f] }},
+  name: "Profit"
+  }]
+  });
+  });
+#chart
 %p
-  %b Name:
-  = @analyzer.name
-%p
-  %b Start date:
-  = @analyzer.start_date
-%p
-  %b End date:
-  = @analyzer.end_date
+  =link_to "More details", analyzer_accounts_path(@analyzer)
+
+%table
+  %tr.header
+    %th Start Date
+    %th End Date
+    %th Trading Days
+    %th Profit 
+  %tr
+    %td= @analyzer.start_date
+    %td= @analyzer.end_date
+    %td= @analyzer.trading_days
+    %td= number_with_delimiter(@analyzer.total)
+    
 %p
   %b Quote:
   = Quote.find(ctw.quote_id).name
 %p
   %b CTW:
   = ctw.name
-  
+
 = link_to 'Edit', edit_analyzer_path(@analyzer)
 \|
 = link_to 'Back', analyzers_path

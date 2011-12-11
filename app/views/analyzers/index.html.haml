@@ -20,8 +20,8 @@
   - @analyzers.each do |analyzer|
     - ctw = Ctw.find(analyzer.ctw_id)
     %tr{:class => cycle('odd', 'even')}
-      %td= link_to "#{analyzer.name}", analyzer_accounts_path(analyzer)
-      %td= analyzer.all_actions
+      %td= link_to "#{analyzer.name}", analyzer_path(analyzer)
+      %td= "#{'*' if analyzer.all_actions == true}"
       %td= link_to "#{ctw.name}", ctw_path(ctw)
       %td= analyzer.start_date
       %td= analyzer.end_date

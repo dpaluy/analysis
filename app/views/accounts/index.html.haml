@@ -8,7 +8,56 @@
     %td= @accounts.last.profit - @accounts.first.profit
     %td= @accounts.last.profit
     
-%p= paginate_date(@analyzer, @date)
+%p
+  = paginate_date(@analyzer, @date)
+  = form_tag analyzer_accounts_path(@analyzer), :method => :get do
+    = text_field_tag "date"
+    = submit_tag "Go"
+
+%script(type="text/javascript")  
+  $(function () {
+  window.chart = new Highcharts.StockChart({
+  chart: { renderTo: 'chart' },
+  rangeSelector : {
+  buttons : [{
+  type : 'minute',
+  count : 10,
+  text : '10m'
+  }, {
+  type : 'minute',
+  count : 30,
+  text : '30m'
+  }, {
+  type : 'hour',
+  count : 1,
+  text : '1h'
+  }, {
+  type : 'hour',
+  count : 3,
+  text : '3h'
+  }, {
+  type : 'all',
+  count : 1,
+  text : 'All'
+  }],
+  selected : 4,
+  inputEnabled : false
+  },
+  xAxis : {
+  type: 'datetime',
+  tickPixelInterval: 150,
+  maxZoom: 60 * 1000
+  },
+  series: [{
+  pointInterval: 60000,
+  data: #{@accounts.map {|a| [a.timestamp.to_i * 1000, a.profit.to_f] }},
+  name: "Profit"
+  }]
+  });
+  });
+#chart
+
+%p= link_to "Back to Summary", analyzer_path(@analyzer)
 %br
 
 %table
