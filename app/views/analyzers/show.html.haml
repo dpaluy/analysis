@@ -35,11 +35,28 @@
   tickPixelInterval: 150,
   maxZoom: 360 * 1000
   },
+  yAxis : [{
+  title: { text: 'Profit'},
+  height: 200,
+  lineWidth: 2
+  },{
+  title: { text: 'Cash' },
+  top: 300,
+  height: 100,
+  offset: 0,
+  lineWidth: 2
+  }],
   series: [{
   pointInterval: 360000,
   data: #{@analyzer.accounts.map {|a| [a.timestamp.to_i * 1000, a.profit.to_f] }},
   name: "Profit"
-  }]
+  },{
+  pointInterval: 360000,
+  data: #{@analyzer.accounts.map {|a| [a.timestamp.to_i * 1000, a.cash.to_f] }},
+  name: "Cash",
+  yAxis: 1
+  },
+  ]
   });
   });
 #chart

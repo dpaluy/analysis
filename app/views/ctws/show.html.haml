@@ -8,11 +8,13 @@
 = link_to 'Edit', edit_ctw_path(@ctw)
 \|
 = link_to 'Back', ctws_path
-
+  
 -unless @ctw.ctw_collectors.empty?
-  - limit = 75000
-  - start_date = @ctw.ctw_collectors.first.timestamp
-  - end_date = @ctw.ctw_collectors.limit(limit).last.timestamp
+  - limit = 100
+  - start_id = @ctw.ctw_collectors.last.id - limit
+  - values = @ctw.ctw_collectors.where("id >= ?", start_id.to_s)
+  - start_date = values.first.timestamp
+  - end_date = values.last.timestamp
   %script(type="text/javascript")  
     $(function () {
     window.chart = new Highcharts.StockChart({

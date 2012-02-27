@@ -4,3 +4,4 @@ module ApplicationHelper
     quote.values.where("timestamp >= ? AND timestamp <= ?", start_date, end_date).map {|v| [v.timestamp.to_i * 1000, v.value.to_f]}
   end
 end
+

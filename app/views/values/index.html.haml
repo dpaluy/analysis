@@ -8,14 +8,13 @@
   selected : 6
   },
   title : {
-  text : "SIE"
+  text : "#{@quote.name}"
   },
   xAxis : {
   type: 'datetime'
   \// maxZoom : 14 * 24 * 3600000 // fourteen days
   },
   series: [{
-  pointInterval: 60000,
   data: #{@values.map {|v| [v.timestamp.to_i * 1000, v.value.to_f] }}
   }]
   });
@@ -30,19 +29,13 @@
     %th Value
     %th Volume
     %th Timestamp
-    %th
-    %th
-    %th
 
   - @values.each do |value|
     %tr{:class => cycle('odd', 'even')} 
       %td= value.value
       %td= value.volume
       %td= value.timestamp
-      %td= link_to 'Show', value
-      %td= link_to 'Edit', edit_value_path(value)
-      /%td= link_to 'Destroy', value, :confirm => 'Are you sure?', :method => :delete
-      %td= button_to "Delete", value, :method=>:delete, :class=>:destroy
+
 %br
 %p= paginate @values
 
